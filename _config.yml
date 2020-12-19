@@ -9,9 +9,9 @@ url: "http://avishvj.github.io"
 
 name: tufte
 
-#personal tags for other websites
-twitter_username: avishvj
-github_username: avishvj
+
+personal_tag: avishvj
+
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
