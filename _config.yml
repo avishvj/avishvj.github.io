@@ -1,10 +1,10 @@
 #baseurl: /tufte-jekyll
 title: Machine Learning for Precision Medicine
 #subtitle: maybe add later?
-author: vish Vijayaraghavan
+author: Avish Vijayaraghavan
 simple_search: http://google.com/search
 description: My personal website for work and my blogs
-baseurl: "avishvj.github.io"
+baseurl:
 
 
 name: tufte
