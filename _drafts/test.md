@@ -2,7 +2,7 @@
 layout: post
 comments: false
 include: true
-title:  'Comments on ML "versus" statistics'
+title:  'SamFin: Comments on ML "versus" statistics'
 excerpt: ""
 date:   2020-01-31 10:00:00
 mathjax: false
