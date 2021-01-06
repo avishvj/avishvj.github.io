@@ -4,8 +4,8 @@ title: Machine Learning for Precision Medicine
 author: Avish Vijayaraghavan
 simple_search: http://google.com/search
 description: My personal website for work and my blogs
-baseurl:
-
+baseurl: avishvj.github.io
+url: avishvj.github.io
 
 name: tufte
 
@@ -21,10 +21,10 @@ timezone: Europe/London
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
 post:
-  template: _post.txt
+  template: templates/_post.txt
   extension: md
 page:
-  template: _page.txt
+  template: templates/_page.txt
   extension: md
 editor: gvim
 git:
