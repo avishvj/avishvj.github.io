@@ -1,7 +1,7 @@
 ---
 layout: full-width
 title: About
-permalink: /about/
+permalink: //
 ---
 
 Hey! I'm Avish and I'm currently studying for a master's in precision medicine at UCL. Before that, I did a bachelor's in maths and computer science at Imperial College London.
