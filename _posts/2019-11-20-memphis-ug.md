@@ -1,6 +1,6 @@
 ---
 layout: full-width-article
-title:  "Foundations of Hip Hop: Memphis"
+title:  "Foundations of hip hop: Memphis"
 excerpt: "The widespread influence of the Memphis underground scene in modern music."
 date:   2019-11-20 17:04:01
 categories: jekyll css
@@ -23,7 +23,7 @@ Phonk was popularised by one of the most important underground producers in hip 
 This musical effect became more apparent when an emerging group of SoundCloud rappers started to build up a cult following around the world. Suicideboys and Ghostmane are two from that crop of artists that popularised the trap metal sound. They hover across a dark lyrical spectrum that draws on a lot of the horrorcore imagery from Memphis, combined with ideas from heavy metal, industrial, and emo music. Both of these artists sharpened the original Memphis aesthetic to give it a more abrasive edge, combining the drum patterns with more distorted bass and vocal aggression.  
 
 Looking outside of American hip hop, the impact is still there. British artists Dizzee Rascal and Novelist both pioneered a faster, colder form of grime called Ruff Sound that takes inspiration from the Memphis underground. The drums are skippier, and ice-cold synths replace the eerie pianos, but the sinister feeling of gangs in impoverished inner-city estates remains - it’s a distinctly English take on the Memphis sound. Early Memphis adlibs and hooks still get sampled frequently in modern music, occasionally beyond hip hop - alternative pop artist Blood Orange has used samples from Memphis legends, Project Pat and Tommy Wright III, on his last two projects.
-  
+
 The Memphis scene has taught us that what’s considered underground is dependent on time and location. It may not have been the biggest genre when it was around, but years later the impact is felt globally. Unfortunately, since this influence is often indirect, the scene doesn’t get the acknowledgement it deserves. But one thing is for certain, the cascading number of subgenres spawned by hip hop retain some part of the original Memphis scene’s DNA, even if they don’t always know it. 
 
 *This feature article was written by Avish Vijayaraghavan and originally published in Imperial College's Newspaper, Felix.*
