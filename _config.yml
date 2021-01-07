@@ -4,8 +4,8 @@ title: Machine Learning for Precision Medicine
 author: Avish Vijayaraghavan
 simple_search: http://google.com/search
 description: My personal website for work and my blogs
-baseurl: avishvj.github.io
-url: "http://avishvj.github.io"
+# baseurl: avishvj.github.io
+# url: "http://avishvj.github.io"
 
 name: tufte
 
