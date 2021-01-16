@@ -7,7 +7,7 @@ permalink: /ml4pm/
 
   <h1 class="content-listing-header sans">Translatable Machine Learning for Precision Medicine</h1>
 
-  Broadly, I want to target problems in precision medicine using machine learning. It's a fairly new field so I'll post my notes to the areas I'm interested in. A key aim of all of this work is that we can eventually deploy/translate it to healthcare systems - for this reason, I've included translatability in the title.
+  Broadly, I want to target problems in precision medicine using machine learning. It's a fairly new field that isn't well-defined so I'll post my notes to the areas I'm interested in. One of my key aims in *translatability* - I want to figure out how we can deploy these biomedical machine learning models to a clinical setting.
 
   <div style="font-size:1.5em; margin-bottom:0.5cm">
   <br />
@@ -15,6 +15,7 @@ permalink: /ml4pm/
   <a href="#aims">Key aims</a><br>
   <a href="#bms">Biomedical sciences</a><br>
   <a href="#ml">Machine learning</a><br>
+  <a href="#modelling">Dynamical modelling</a><br>
   <a href="#trans">Translatability</a><br>
   <a href="#proj">Projects</a><br>
   <a href="#articles">Articles</a>
@@ -41,15 +42,27 @@ permalink: /ml4pm/
   <font style="font-size:2em">
   <a name="bms"></a>Biomedical sciences </font>
 
+  Genetics of disease, molecular biology, biochemistry, systems biology, oncology, drug discovery.
+
   <br />
 
   <font style="font-size:2em">
   <a name="ml"></a>Machine learning </font>
 
+  Fundamentals (supervised, unsupervised), deep learning (focus on DGMs),  representation learning, mechanistic machine learning. 
+
+  <br />
+
+  <font style="font-size:2em">
+  <a name="modelling"></a>Dynamical modelling </font>
+
+  Applied probability, simulation?, mathematical biology, dynamics, control theory.
+
   <br />
 
   <font style="font-size:2em">
   <a name="trans"></a>Translatability </font>
+  Model interpretability, machine learning systems, ethics, patient-centred principles, data security and privacy.
 
   <br />
 
