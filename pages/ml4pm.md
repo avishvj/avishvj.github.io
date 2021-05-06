@@ -12,31 +12,16 @@ permalink: /ml4pm/
   <div style="font-size:1.5em; margin-bottom:0.5cm">
   <br />
   <font size="5"> Contents </font> <br>
-  <a href="#aims">Key aims</a><br>
-  <a href="#proj">Projects</a><br>
+  * <a href="#aims">Key aims</a><br>
   </div>
 
-  <font style="font-size:2em">
+  <font style="font-size:1.75em">
   <a name="aims"></a>Key aims </font>
-  What are we trying to do on the disease biology side? **Understand disease mechanisms in patients.**
-  
-  * Use multiomics data and systems medicine (i.e. biological patient networks) techniques to build up dynamic multiscale patient models.
-  * Understand how disease perturbs regular information flow in the patient networks to create a diagnosis.
-  * Identify the stratified disease-causing mechanisms in these networks to create more accurate patient subgroups.
-  * Build probabilistic models of disease progression to help provide prognoses and personalised treatment plans.
-  
+  What are we trying to do on the disease biology side? **Understand disease mechanisms in patients.** Use multiomics data and systems medicine techniques to build dynamic disease models for patients. Aim for patient stratification and personalised prognoses.
 
-  What are we trying to do on the drug discovery side? **Identify therapies to remove disease perturbations.**
-
-  * Stratified treatments: creating drugs from disease subtypes/patient subgroups.
-  * Individualised treatment: going from stratified to individualised with specific mechanism/perturbation-based experiments.
-  * Systems pharmacology: investigate drug-target, drug-omics, drug combination effects. Want to screen potential drugs and evaluate side effects, repurpose existing drugs, and synthesise new drugs.
+  What are we trying to do on the drug discovery side? **Identify therapies to remove disease effects.** Systems pharmacology to screen existing drugs, and evaluate their side effects on patients and in combination. Then molecular machine learning and computer-assisted synthesis planning to speed up targeted drug synthesis. 
   
-  <br />
+  <!--<br /> this gives you a break in page --> 
    
-  <font style="font-size:2em">
-  <a name="proj"></a>Projects </font>
-
-  <!--hi -->
 
 
