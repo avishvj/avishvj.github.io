@@ -13,7 +13,7 @@ permalink: /ml4pm/
   <br />
   <font size="5"> Contents </font> <br>
   <a href="#aims">Key aims</a><br>
-  <a href="#bms">Biomedical sciences</a><br>
+  <a href="#proj">Projects</a><br>
   </div>
 
   <font style="font-size:2em">
@@ -35,9 +35,8 @@ permalink: /ml4pm/
   <br />
    
   <font style="font-size:2em">
-  <a name="bms"></a>Biomedical sciences </font>
+  <a name="proj"></a>Projects </font>
 
-  Genetics of disease, molecular biology, biochemistry, systems biology, oncology, drug discovery.
-
+  <!--hi -->
 
 
