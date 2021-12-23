@@ -3,7 +3,7 @@ layout: full-width-article
 title:  "Is grime dead?"
 excerpt: "The genre is said to have 'died' once already in its not-even 20 year history, and, with drill and afroswing currenty dominating the UK singles market, how is grime reconciling the pressure of commercialisation with the effort to retain its musical authenticity?"
 date:   2019-06-15 17:04:01
-categories: jekyll css
+categories: music
 ---
 
 **The genre is said to have 'died' once already in its not-even 20 year history, and, with drill and afroswing currenty dominating the UK singles market, how is grime reconciling the pressure of commercialisation with the effort to retain its musical authenticity?**

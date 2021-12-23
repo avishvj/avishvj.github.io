@@ -16,8 +16,10 @@ module Jekyll
     def render(context)
 
       # Gather settings
+      #site = context.registers[:site]
+      #converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
       site = context.registers[:site]
-      converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
+      converter = site.getConverterImpl(Jekyll::Converters::Markdown)
 
       baseurl = context.registers[:site].config['baseurl']
       label = Kramdown::Document.new(@text[1],{remove_span_html_tags:true}).to_html # render markdown in caption

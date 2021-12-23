@@ -3,7 +3,7 @@ title: Machine Learning for Precision Medicine
 #subtitle: maybe add later?
 author: Avish Vijayaraghavan
 simple_search: http://google.com/search
-description: My personal website for work and my blogs
+description: My personal website for work and blogging
 # baseurl: avishvj.github.io
 # url: "http://avishvj.github.io"
 
@@ -15,7 +15,7 @@ personal_tag: avishvj
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink: /articles/:short_year/:title
+permalink: /articles/:categories/:title
 timezone: Europe/London
 
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.

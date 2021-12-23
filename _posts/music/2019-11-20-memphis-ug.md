@@ -3,7 +3,7 @@ layout: full-width-article
 title:  "Foundations of hip hop: Memphis"
 excerpt: "The widespread influence of the Memphis underground scene in modern music."
 date:   2019-11-20 17:04:01
-categories: jekyll css
+categories: music
 ---
 
 **The widespread influence of the Memphis underground scene in modern music.**
