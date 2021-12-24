@@ -8,21 +8,33 @@ personal_tag: avishvj
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink: /articles/:categories/:title
+permalink: /blog/:categories/:title
 timezone: Europe/London
 
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 # exclude these files from production site
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 post:
   template: templates/_post.txt
   extension: md
+
 page:
   template: templates/_page.txt
   extension: md
 editor: gvim
+
 git:
   branch: master
+
 transfer:
   command: rsync
   settings: -av
