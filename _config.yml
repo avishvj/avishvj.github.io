@@ -1,17 +1,10 @@
-#baseurl: /tufte-jekyll
+# baseurl: /avishvj.github.io
 title: Machine Learning for Precision Medicine
-#subtitle: maybe add later?
 author: Avish Vijayaraghavan
 simple_search: http://google.com/search
 description: My personal website for work and blogging
-# baseurl: avishvj.github.io
-# url: "http://avishvj.github.io"
-
 name: tufte
-
-
 personal_tag: avishvj
-
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -19,19 +12,19 @@ permalink: /blog/:categories/:title
 timezone: Europe/London
 
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
-# eclude these files from production site
+# exclude these files from production site
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
-#post:
-#  template: templates/_post.txt
-#  extension: md
-#page:
-#  template: templates/_page.txt
-#  extension: md
+post:
+  template: templates/_post.txt
+  extension: md
+page:
+  template: templates/_page.txt
+  extension: md
 editor: gvim
 git:
   branch: master
-#transfer:
-#  command: rsync
-#  settings: -av
-#  source: _site/
-#  destination: ~/Git/clayh53.github.com/
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/clayh53.github.com/
