@@ -15,17 +15,18 @@ personal_tag: avishvj
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink: /articles/:categories/:title
+permalink: /blog/:categories/:title
 timezone: Europe/London
 
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+# eclude these files from production site
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
-post:
-  template: templates/_post.txt
-  extension: md
-page:
-  template: templates/_page.txt
-  extension: md
+#post:
+#  template: templates/_post.txt
+#  extension: md
+#page:
+#  template: templates/_page.txt
+#  extension: md
 editor: gvim
 git:
   branch: master
