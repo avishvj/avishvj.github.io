@@ -8,7 +8,7 @@ personal_tag: avishvj
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink: /blog/:categories/:title
+permalink: /articles/:categories/:title
 timezone: Europe/London
 
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
