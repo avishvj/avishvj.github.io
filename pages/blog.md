@@ -42,6 +42,11 @@ permalink: /blog/
 
   <!-- I'm making notes on papers I come across that are related to MLPM in some way. **Nothing beats reading the original paper so please do that if you can** - these notes can hopefully complement that. -->
   
+
+  <!---
+bundle exec jekyll serve -w --baseurl=""
+git add . && git commit -m "[...]" && git push origin master && rake
+-->
    
 
 
