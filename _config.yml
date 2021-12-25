@@ -18,6 +18,10 @@ plugins: # used to be called gems
   - jekyll-scholar
   - jekyll-include-cache
 
+scholar:
+  source: ./_bibliography
+  bibliography: refs.bib
+
 post:
   template: templates/_post.txt
   extension: md
