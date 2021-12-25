@@ -13,10 +13,12 @@ timezone: Europe/London
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md'] # exclude from production site
 
-plugins: # used to be called gems
-  - jekyll-feed
-  - jekyll-scholar
-  - jekyll-include-cache
+plugins: ['jekyll/scholar', 'jekyll-include-cache']
+
+#plugins: # used to be called gems
+#  - jekyll-feed
+#  - jekyll-scholar
+#  - jekyll-include-cache
 
 scholar:
   source: ./_bibliography
