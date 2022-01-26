@@ -555,11 +555,10 @@ hr.slender {
 /* --- Icomoon icon fonts CSS --*/
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?pmc8bw');
-  src:  url('../fonts/icomoon.eot?pmc8bw#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?pmc8bw') format('truetype'),
-    url('../fonts/icomoon.woff?pmc8bw') format('woff'),
-    url('../fonts/icomoon.svg?pmc8bw#icomoon') format('svg');
+  src:  url('../fonts/icomoon.woff?pmc8bw') format('woff');
+    /* url('../fonts/icomoon.eot?pmc8bw#iefix') format('embedded-opentype'), commented this out as no effect on icons */
+    /* url('../fonts/icomoon.ttf?pmc8bw') format('truetype'), commented this out as no effect on icons */
+    /* url('../fonts/icomoon.svg?pmc8bw#icomoon') format('svg'); commented this out as no effect on icons */
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -647,6 +646,10 @@ hr.slender {
 
 .icon-letterboxd:before {
   content: "\e900";
+}
+
+.icon-spotify:before {
+  content: "\ea11";
 }
 
 /*

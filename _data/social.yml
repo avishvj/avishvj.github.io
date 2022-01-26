@@ -2,7 +2,10 @@
   icon: icon-twitter
 - link: //github.com/avishvj 
   icon: icon-github
+- link: //open.spotify.com/user/31oulktndkregbwdhwlwj3em5izy
+  icon: icon-soundcloud2
 - link: //www.youtube.com/channel/UCbKCp27vrFCNSNqSnlRy1pQ/featured
   icon: icon-youtube
 - link: //www.letterboxd.com/avishvj/
   icon: icon-letterboxd # place and link on website working but icon not showing. need to sort in icomoon.svg and tufte.scss
+
