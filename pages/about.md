@@ -23,7 +23,7 @@ I'm currently studying towards a PhD in AI for Healthcare as part of the third c
 
 My overall aim is to push the field of precision medicine forward using machine learning. One of my key aims is *translatability* - I want to figure out how we can deploy these biomedical machine learning models to a clinical setting. To this end, I'm also interested in the broader ecosystem of UK healthcare: the NHS (and its various incarnations), how industry (big tech and pharma) interact with the NHS to deliver precision care, and how politics shapes care through healthcare and genomics policy.
 
-If you want to chat, contact me via email or Twitter below! Also got links to my other accounts there: GitHub, Spotify (SoundCloud icon), YouTube, Letterboxd (missing icon).
+If you want to chat about any of the above, contact me via email or Twitter below! Also got links to my other accounts there: GitHub, Spotify (SoundCloud icon), YouTube, Letterboxd (missing icon).
 
 <!---
 bundle exec jekyll serve -w --baseurl=""
