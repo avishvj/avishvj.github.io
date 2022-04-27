@@ -3,18 +3,6 @@ layout: full-width
 title: Blog
 permalink: /blog/
 ---
-
-  <span style="font-size: xx-large ;">Blog Posts</span> 
-  <ul class="content-listing ">
-  {% for post in site.categories.test %}      
-    <li class="listing">
-      <hr class="slender">
-      <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="contrast">{{ post.title }}</h3></a>
-      <br><span class="smaller">{{ post.date | date: "%B %-d, %Y" }}</span>  <br/>
-      <div>{{ post.excerpt }}</div> 
-    </li>
-  {% endfor %}
-  </ul>  
   
   <span style="font-size: xx-large; padding-top:30px">
     Music Articles
