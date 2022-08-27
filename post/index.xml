@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Avish Vijayaraghavan</title>
+    <link>http://avishvj.github.io/post/</link>
+    <description>Recent content in Posts on Avish Vijayaraghavan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 27 Aug 2022 23:47:52 +0100</lastBuildDate><atom:link href="http://avishvj.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post</title>
+      <link>http://avishvj.github.io/post/post/</link>
+      <pubDate>Sat, 27 Aug 2022 23:47:52 +0100</pubDate>
+      
+      <guid>http://avishvj.github.io/post/post/</guid>
+      <description>Test post.</description>
+    </item>
+    
+  </channel>
+</rss>
