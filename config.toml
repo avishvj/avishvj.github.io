@@ -1,16 +1,23 @@
 # Set your theme here
 theme = "hugo-tufte"
+
 # The language of your website (see https://www.andiamo.co.uk/resources/iso-language-codes/ for reference)
 languageCode = "en-us"
+
 # The url of your website
-baseurl = "https://slashformotion.github.io/hugo-tufte/"
+baseurl = "https://avishvj.github.io"
+
 # The title of your website (shown on all the pages)
 title = "Avish Vijayaraghavan"
+
 # Site wide kill switch for Latex support
 math = true
 # (If math is enabled) 
 ## if "katex" is set to true katex will be used to render LaTex, if not MathJax will be used instead
 katex = true
+
+# hope this works
+publishDir = "docs"
 
 [params]
   # Subtitle of the website
