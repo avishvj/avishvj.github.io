@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Avish Vijayaraghavan</title>
+    <link>https://avishvj.github.io/post/</link>
+    <description>Recent content in Posts on Avish Vijayaraghavan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 19 Jan 2022 23:57:58 -0800</lastBuildDate><atom:link href="https://avishvj.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockquotes</title>
+      <link>https://avishvj.github.io/post/test/</link>
+      <pubDate>Wed, 19 Jan 2022 23:57:58 -0800</pubDate>
+      
+      <guid>https://avishvj.github.io/post/test/</guid>
+      <description>&lt;p&gt;Below is a blockquote.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>More math $\xi_{(even-in-the-title-!)}$</title>
+      <link>https://avishvj.github.io/post/more-maths/</link>
+      <pubDate>Tue, 20 Jul 2021 13:56:01 -0800</pubDate>
+      
+      <guid>https://avishvj.github.io/post/more-maths/</guid>
+      <description>&lt;p&gt;A compilation of $\LaTeX$ formulas&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo-Tufte Features</title>
+      <link>https://avishvj.github.io/post/tufte-features/</link>
+      <pubDate>Sat, 20 Feb 2016 13:56:01 -0800</pubDate>
+      
+      <guid>https://avishvj.github.io/post/tufte-features/</guid>
+      <description>&lt;p&gt;This is a quick demonstration post.  It serves as an example of the features
+of this theme.  One of them is $ \LaTeX $ via &lt;a href=&#34;https://katex.org/&#34;&gt;Katex&lt;/a&gt;. 
+
+
+  &lt;section&gt;
+
+    
+&lt;/p&gt;
+&lt;h2 id=&#34;a-bit-about-mathematics&#34;&gt;A Bit About Mathematics&lt;/h2&gt;
+&lt;div class=&#34;epigraph&#34;&gt;
+&lt;blockquote&gt;
+
+&lt;p&gt;This is an example of an epigraph with some math
+$ \mathbb N \subseteq \mathbb R $
+to start the beginning of a section.&lt;/p&gt;
+
+&lt;footer&gt;
+Shawn O&amp;#39;Hare, 
+
+&lt;cite&gt;Math is Fun&lt;/cite&gt;
+&lt;/a&gt;
+
+&lt;/footer&gt;
+
+&lt;blockquote&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hide Date</title>
+      <link>https://avishvj.github.io/post/nodate/</link>
+      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://avishvj.github.io/post/nodate/</guid>
+      <description>Tables Are Cool col 1 is left-aligned $1600 col 2 is centered $12 col 3 is right-aligned $1 Here is an example post where the date set, but hidden from display.
+Moreover, the reading time is also hidden.</description>
+    </item>
+    
+    <item>
+      <title>Blockquotes</title>
+      <link>https://avishvj.github.io/post/blockquote/</link>
+      <pubDate>Mon, 19 Jan 2015 23:57:58 -0800</pubDate>
+      
+      <guid>https://avishvj.github.io/post/blockquote/</guid>
+      <description>&lt;p&gt;Below is a blockquote.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.&lt;/p&gt;
+&lt;p&gt;Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,6 +6,8 @@ Literally zoom in if there's a size issue on localhost.
 Need to sort the space between text though.
 
 
+https://blog.clairvoyantsoft.com/create-a-static-website-with-hugo-and-host-it-with-github-pages-f268b12371
+
 - config.toml : the configuration file, we will need to edit it later.
 - content : stores all the content of the website, including all of your blog posts, resumes and so on, can include folders, but usually all .md files.
 - static : Stores static files such as your background pictures, logos, css, js, etc. The files in this directory will be directly copied to it /public. This folder has higher priority than the /staticfolder under the theme.

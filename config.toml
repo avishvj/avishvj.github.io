@@ -5,7 +5,7 @@ theme = "hugo-tufte"
 languageCode = "en-gb"
 
 # The url of your website
-baseurl = "https://avishvj.github.io"
+baseurl = "https://avishvj.github.io/"
 
 # The title of your website (shown on all the pages)
 title = "Avish Vijayaraghavan"
