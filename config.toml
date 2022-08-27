@@ -17,7 +17,7 @@ math = true
 katex = true
 
 # hope this works
-publishDir = "docs"
+publishDir = "public"
 
 [params]
   # Subtitle of the website
