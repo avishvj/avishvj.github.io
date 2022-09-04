@@ -2,19 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://avishvj.github.io/</loc>
+    <lastmod>2022-09-02T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/blog-post/</loc>
+    <lastmod>2022-09-02T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/</loc>
+    <lastmod>2022-09-02T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/explainability/</loc>
+    <lastmod>2022-09-02T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/interpretability/</loc>
+    <lastmod>2022-09-02T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/interpretable-neural-networks/</loc>
+    <lastmod>2022-09-02T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/posts/</loc>
+    <lastmod>2022-09-02T00:28:30+01:00</lastmod>
+  </url><url>
     <loc>http://avishvj.github.io/posts/rudin/</loc>
-    <lastmod>2022-08-28T00:28:30+01:00</lastmod>
+    <lastmod>2022-09-02T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/scientific-discovery/</loc>
+    <lastmod>2022-09-02T00:28:30+01:00</lastmod>
   </url><url>
     <loc>http://avishvj.github.io/about/</loc>
     <lastmod>2022-08-28T00:28:30+01:00</lastmod>
   </url><url>
-    <loc>http://avishvj.github.io/</loc>
-    <lastmod>2022-08-28T00:28:30+01:00</lastmod>
+    <loc>http://avishvj.github.io/categories/ethics/</loc>
+    <lastmod>2022-05-26T00:28:30+01:00</lastmod>
   </url><url>
-    <loc>http://avishvj.github.io/posts/</loc>
-    <lastmod>2022-08-28T00:28:30+01:00</lastmod>
+    <loc>http://avishvj.github.io/categories/omics-at-scale/</loc>
+    <lastmod>2022-05-26T00:28:30+01:00</lastmod>
   </url><url>
-    <loc>http://avishvj.github.io/categories/</loc>
+    <loc>http://avishvj.github.io/categories/translatability/</loc>
+    <lastmod>2022-05-26T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/video/</loc>
+    <lastmod>2022-05-26T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/posts/roadmap-diversity/</loc>
+    <lastmod>2022-05-26T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/classic/</loc>
+    <lastmod>2022-04-16T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/computational-biology/</loc>
+    <lastmod>2022-04-16T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/dynamical-systems/</loc>
+    <lastmod>2022-04-16T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/gene-expression/</loc>
+    <lastmod>2022-04-16T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/geometric-analysis/</loc>
+    <lastmod>2022-04-16T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/phase-delay-time-plots/</loc>
+    <lastmod>2022-04-16T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/categories/transcriptomics/</loc>
+    <lastmod>2022-04-16T00:28:30+01:00</lastmod>
+  </url><url>
+    <loc>http://avishvj.github.io/posts/goged/</loc>
+    <lastmod>2022-04-16T00:28:30+01:00</lastmod>
   </url><url>
     <loc>http://avishvj.github.io/series/</loc>
   </url><url>

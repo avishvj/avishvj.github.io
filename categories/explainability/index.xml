@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>explainability on Avish Vijayaraghavan</title>
+    <link>http://avishvj.github.io/categories/explainability/</link>
+    <description>Recent content in explainability on Avish Vijayaraghavan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 02 Sep 2022 00:28:30 +0100</lastBuildDate><atom:link href="http://avishvj.github.io/categories/explainability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflections on Rudin&#39;s interpretability classic</title>
+      <link>http://avishvj.github.io/posts/rudin/</link>
+      <pubDate>Fri, 02 Sep 2022 00:28:30 +0100</pubDate>
+      
+      <guid>http://avishvj.github.io/posts/rudin/</guid>
+      <description>Paper Summary In &amp;ldquo;Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead&amp;rdquo;, Prof. Cynthia Rudin argues that explainable machine learning (EML/XAI) and interpretable machine learning (IML) are distinct fields, and that we should prioritise IML models for high-stakes decisions [1]. Rudin defines an IML model as a model which has intrinsic domain-specific constraints for solving certain tasks (e.g. model decomposability into sub-models). XAI is a separate but related field that deals with explaining &amp;ldquo;black box models&amp;rdquo; - models that humans cannot understand directly since they are derived from data without explicit description of how features are combined.</description>
+    </item>
+    
+  </channel>
+</rss>
