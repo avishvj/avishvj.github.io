@@ -25,23 +25,5 @@
       <description>Paper Summary In &amp;ldquo;Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead&amp;rdquo;, Prof. Cynthia Rudin argues that explainable machine learning (EML/XAI) and interpretable machine learning (IML) are distinct fields, and that we should prioritise IML models for high-stakes decisions [1]. Rudin defines an IML model as a model which has intrinsic domain-specific constraints for solving certain tasks (e.g. model decomposability into sub-models). XAI is a separate but related field that deals with explaining &amp;ldquo;black box models&amp;rdquo; - models that humans cannot understand directly since they are derived from data without explicit description of how features are combined.</description>
     </item>
     
-    <item>
-      <title>Video summary: A roadmap to increase diversity in genomic studies</title>
-      <link>http://avishvj.github.io/posts/roadmap-diversity/</link>
-      <pubDate>Thu, 26 May 2022 00:28:30 +0100</pubDate>
-      
-      <guid>http://avishvj.github.io/posts/roadmap-diversity/</guid>
-      <description>In this video, I summarise &amp;lsquo;&amp;rsquo;A roadmap to increase diversity in genomic studies&amp;rsquo;&amp;rsquo;. The paper builds a pathway towards more equitable studies in genomics drawing on case studies from Africa, Asia, Australia, and the common principles between ethical genomics at scale. The first author, Segun, outlines the paper in five tweets here: https://twitter.com/SFatumo/status/1491806516562649097. My video summary goes into more detail covering the benefits of diversity and findings from the main case studies.</description>
-    </item>
-    
-    <item>
-      <title>Video summary: Geometry of gene expression dynamics</title>
-      <link>http://avishvj.github.io/posts/goged/</link>
-      <pubDate>Sat, 16 Apr 2022 00:28:30 +0100</pubDate>
-      
-      <guid>http://avishvj.github.io/posts/goged/</guid>
-      <description>In this video, I summarise the Geometry of gene expression dynamics - a foundational computational biology paper from 2002 which uncovers geometry underlying cell cycle trajectories. They use methods based in Takens&amp;rsquo; embedding theorem (an idea from dynamical systems) which allows us to take points along a low-dimensional time series and create a phase plot for a full high-dimensional system - a fascinating idea! Given the recent swing towards &amp;lsquo;omic velocity methods over the past half decade (which naturally admit geometric interpretations), it&amp;rsquo;s nice to take a little look back at earlier ideas in this field.</description>
-    </item>
-    
   </channel>
 </rss>
