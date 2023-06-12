@@ -6,20 +6,11 @@
     <description>Recent content in Categories on Avish Vijayaraghavan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 23 Jan 2023 14:12:29 +0000</lastBuildDate><atom:link href="http://avishvj.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>blog post</title>
-      <link>http://avishvj.github.io/categories/blog-post/</link>
-      <pubDate>Mon, 23 Jan 2023 14:12:29 +0000</pubDate>
-      
-      <guid>http://avishvj.github.io/categories/blog-post/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://avishvj.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>book summary</title>
       <link>http://avishvj.github.io/categories/book-summary/</link>
-      <pubDate>Mon, 23 Jan 2023 14:12:29 +0000</pubDate>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/book-summary/</guid>
       <description></description>
@@ -28,7 +19,7 @@
     <item>
       <title>technosocial dynamics</title>
       <link>http://avishvj.github.io/categories/technosocial-dynamics/</link>
-      <pubDate>Mon, 23 Jan 2023 14:12:29 +0000</pubDate>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/technosocial-dynamics/</guid>
       <description></description>
@@ -37,7 +28,7 @@
     <item>
       <title>explainability</title>
       <link>http://avishvj.github.io/categories/explainability/</link>
-      <pubDate>Fri, 02 Sep 2022 00:28:30 +0100</pubDate>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/explainability/</guid>
       <description></description>
@@ -46,7 +37,7 @@
     <item>
       <title>interpretability</title>
       <link>http://avishvj.github.io/categories/interpretability/</link>
-      <pubDate>Fri, 02 Sep 2022 00:28:30 +0100</pubDate>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/interpretability/</guid>
       <description></description>
@@ -55,7 +46,7 @@
     <item>
       <title>interpretable neural networks</title>
       <link>http://avishvj.github.io/categories/interpretable-neural-networks/</link>
-      <pubDate>Fri, 02 Sep 2022 00:28:30 +0100</pubDate>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/interpretable-neural-networks/</guid>
       <description></description>
@@ -64,7 +55,7 @@
     <item>
       <title>scientific discovery</title>
       <link>http://avishvj.github.io/categories/scientific-discovery/</link>
-      <pubDate>Fri, 02 Sep 2022 00:28:30 +0100</pubDate>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/scientific-discovery/</guid>
       <description></description>
