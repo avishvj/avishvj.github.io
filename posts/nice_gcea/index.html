@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head>
+<title>Avish Vijayaraghavan - We can improve NICE’s drug valuation methods</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description"
+    content="Cost-effectiveness analyses for drugs should include genericisation and scientific spillover ">
+<link rel="canonical" href="http://avishvj.github.io/posts/nice_gcea/" />
+
+<link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  
+
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script defer>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+
+
+
+<link rel="stylesheet" href="/css/hugo-tufte.min.css">
+
+<link rel="stylesheet"  href="/css/hugo-tufte-override.css">
+
+
+
+</head>
+<body >
+        
+<div id="layout" class="pure-g">
+  <article class="pure-u-1">
+    <header class="brand">
+  <a href="http://avishvj.github.io/"><h1>Avish Vijayaraghavan</h1></a>
+  <h2></h2>
+  <nav class="menu">
+    <ul>
+    
+        <li><a href="/">Recent Posts</a></li>
+    
+        <li><a href="https://www.youtube.com/@avishvijayaraghavan">YouTube</a></li>
+    
+        <li><a href="https://scholar.google.com/citations?user=hMWDDRgAAAAJ&amp;hl=en">Publications</a></li>
+    
+        <li><a href="/about">About Me</a></li>
+    
+    </ul>
+</nav>
+
+  <hr />
+</header>
+
+    <section>
+  
+  <h1 class="content-title">
+    
+    <a href="/posts/nice_gcea/">We can improve NICE’s drug valuation methods</a>
+    
+  </h1>
+  
+    
+      <p class=subtitle>Cost-effectiveness analyses for drugs should include genericisation and scientific spillover</p>
+    
+    
+      <span class="content-meta">
+        
+    
+            
+        
+          <i class="fa fa-calendar"></i>
+          &nbsp;Jan 12, 2025
+        
+    
+        
+          &nbsp;<i class="fa fa-clock-o"></i>
+          &nbsp;18 min read
+        
+    
+        
+          <br>
+          <i class="fa fa-tags"> </i>
+          
+            <a  href="http://avishvj.github.io/categories/health-economics">health economics</a>
+          
+            <a  href="http://avishvj.github.io/categories/pharma">pharma</a>
+          
+            <a  href="http://avishvj.github.io/categories/nice">nice</a>
+          
+        
+      </span>
+    
+  
+  </section>
+    
+
+    <section><h2 id="introduction">Introduction</h2>
+<p>If a company wants to sell drugs to the UK, they have to go through the National Health Service (NHS). Unlike the US&rsquo;s private health insurance, the NHS is a centralised publicly-funded healthcare system. This gives it significant negotiation leverage for drugs; in fact, the NHS often pays much lower than the prices set by pharma companies. This is good for people in the UK but bad for pharma companies because they don&rsquo;t always make enough to recoup production costs. The US pays closer to the original price and keeps the industry going - if every country paid the UK fees, the pharma industry would go bust in a few decades and we would get no more drugs. In this essay, I&rsquo;m going to argue for something that might be fairly unpopular with the public but that I think is right: we don&rsquo;t value drugs enough in the UK and we should pay more for them like the US does.</p>
+<p>Before we step in, let me lay out my views clearly. The UK is not the US. I don&rsquo;t want to privatise UK healthcare. I think that&rsquo;s an unrealistic idea that only people with minimal experience of the NHS have convinced themselves is possible, and, more importantly, wouldn&rsquo;t improve outcomes. I&rsquo;m not a socialist but I&rsquo;m definitely not some die-hard capitalist either. I believe some industries, mainly those to do with basic human rights, should be socialised. Healthcare is one of them. Pharma is a part of healthcare that I wish could be socialised. But it&rsquo;s frontier healthcare research that needs far too much money for how uncertain it is to be handled by the government. So, my working solution is to optimise how pharma works with the NHS^
+<label
+  for="marginnote-2ceb9f1a6f4f9bef5b21096cda845d03-0"
+  class="margin-toggle"
+  >&#8853;
+</label>
+<input
+  type="checkbox"
+  id="marginnote-2ceb9f1a6f4f9bef5b21096cda845d03-0"
+  class="margin-toggle"
+/>
+<span class="marginnote">^I should note that <a href="https://www.sciencedirect.com/science/article/pii/S2514664524015583">Roche and Great Ormond Street Hospital are two years into a five year partnership</a>, though this is a new territory for UK healthcare. The collaboration has been successful so far and I hope it becomes the norm.</span>
+.</p>
+<p>The interaction of NHS and pharma in the UK is mediated by the National Institute for Health and Care Excellence (NICE) who do cost-effectiveness analyses (CEAs), also referred to as &ldquo;technology appraisals&rdquo;, on drugs to determine which ones the NHS should pay for. The important unit here for CEAs is a quality adjusted life year (QALY). A QALY is a measure that combines both length and quality of life into a single number, where one QALY equals one year of perfect health. NICE typically applies a threshold of £30,000 (approx \$40,000) per QALY to determine whether a drug delivers sufficient value to justify its cost [1]. In the US, the equivalent price is \$150,000 [1]. Even if I can&rsquo;t convince you that we should pay more for drugs, I can hopefully show you that drugs have a broader value than is commonly shown. Specifically, I&rsquo;m going to focus on two ways of expanding CEAs to include the dynamic value components of drug development: genericisation and scientific spillover.</p>
+<h2 id="current-nice-assessments-miss-the-broader-benefits-of-drugs">Current NICE assessments miss the broader benefits of drugs</h2>
+<p>NICE&rsquo;s CEA process is comprehensive in many ways. Beyond the standard metrics of efficacy and safety, the organisation examines evidence across different patient subgroups and evaluates indirect impacts on NHS trusts and other healthcare stakeholders like caretakers. Their forward-thinking approach is evident in their current pathway pilots for renal cell carcinoma [2] and non-small cell lung cancer [3], which track complete treatment pathways to better integrate <em>future</em> drugs into these disease areas. Future anticipated drugs, not just those currently available! However, despite this broad consideration of value to all stakeholders across the treatment pathway, fundamental limitations remain in how value is conceptualised with respect to the pharma ecosystem and society over time. The current framework maintains a rigid QALY threshold of £30,000 and fails to capture two critical components of drug economics: the long-term effects of genericisation and the broader impact of scientific spillover [4].</p>
+<p>The most significant oversight in the current CEA framework is its failure to account for drug genericisation and subsequent price reductions - a key part of Kolchinsky&rsquo;s Biotech Social Contract that ensures wider drug access for patients while ensuring continued pharma innovation [5]. During the drug&rsquo;s patent exclusivity period, the drugmaker has an effective monopoly and so charges high-enough prices to make a profit for their investors. However, at some point, the drug becomes generic which means the patent ends and competitors can make their own version. This forces the price down dramatically, making it much more accessible to patients. In this way, new drugs should not be viewed as perpetual expenses like rental properties, but as long-term investments analogous to mortgages [5]. Once the drug genericises, the mortgage has effectively been paid off and the drug becomes part of society&rsquo;s medical arsenal. Effective drugs can generate substantial cost savings for society over periods of 10, 20, or 30 years [6], especially in contrast to other payments like hospital costs and clinician salaries which do not ever drop in price suddenly (relative to cost of production), even though these benefits may be less apparent in short-term analyses.</p>
+<p>Granted, genericisation and its effects aren&rsquo;t guaranteed. One of the concerns is the uncertainty around when exactly the generics enter the market and how far prices fall [7]. This is particularly important for cases where companies extend their patent with drug upgrades (e.g. the questionable case of Humira [8]), treat sufficiently small populations (e.g. cystic fibrosis [9]), or cannot be easily replicated, like in the case of biologics. However, there are potential solutions proposed in Kolchinsky&rsquo;s The Great American Drug Deal [5]. For the patent evergreening problem, Kolchinsky proposes allowance for a small number of short patent extensions to encourage drug improvements but cap their potential to be abused. For smaller populations and replication challenges, Kolchinsky proposes contractual genericisation (i.e. forcing the price of a drug down irrespective of market forces after patent expiry) and recommends the original drugmakers to make it easier for generic makers to copy their drug [5]. This mandated genericisation means that drugs will always drop in price, which has the benefit of incentivising pharma companies to keep innovating if they want to make money after the patent has expired.</p>
+<p>Another important factor when assessing drug value is scientific spillover. Scientific spillovers are a positive externality - a positive indirect effect of some event, in the same way that greenhouse gas emissions are a negative externality of some manufacturing processes. In pharma, scientific spillovers constitute knowledge generated through patents filed, decisions to move on/discontinue clinical trials, company news announcements and updates, and scientific publications [10].</p>
+<p>Quantifying scientific spillover is challenging because it requires precisely describing the messy process of innovation with limited data. Formally, innovation is a &ldquo;cumulative societal process where innovators learn from prior efforts and adjust their scientific and commercial strategies accordingly&rdquo; [10, 11, 12]. Informally, I interpret this as the science of learning from successes and failures. The main positive externality of success is clear in pharma - drugs get approved, benefit a decent amount of people for a decade or two, genericise, and then benefit society forever. Additionally, many new drugs often build off the chemical structure of older successful drugs which is direct knowledge transfer. More subtle but equally important is the knowledge of competitors investing in a certain mechanism of action [10, 13, 14]. If you see a pharma competitor with success in one indication, that&rsquo;s motivation for you to go work in that indication. One recent indication that is seeing a lot of positive results is Insilico Medicine&rsquo;s TNIK inhibitors [15] - the publication and positive P2 results of this drug for idiopathic pulmonary fibrosis, and now renal fibrosis [16, 17], are a clear signal that other people should be working on it.</p>
+<p>Less-studied but just as important are the scientific spillovers from other companies&rsquo; failures. In pharma, R&amp;D projects are stopped for reasons like failing to demonstrate incremental efficacy, lack of commercial viability, and challenges with regulatory approvals [14, 18]. All of these are market signals to not work on that thing, or to at least understand the additional risk of working on similar projects. GLP-1 inhibitors were originally explored briefly by MetaBio/Pfizer in 1990s before the project was killed off [19]. Fast-forward to the 2010s and Novo Nordisk creates GLP-1 inhibitors called Ozempic and Wegovy that now produce most of Denmark&rsquo;s GDP. Roivant took advantage of failed late-stage drugs by acquiring them for reduced prices and successfully repurposing some through FDA approval [20]. These are two clear examples of how previous &ldquo;failures&rdquo; are useful in the hands of skilled pharma practitioners. While not always the most reliable source, social media (mostly LinkedIn and Twitter) has great potential for quick dissemination of and contact points for failures, like this pharma CRO founder who was willing to discuss his startup&rsquo;s failures with innovators in the space [21].</p>
+<p>Future work into scientific spillovers could do in-depth analysis of the history of the field and likely future progression, learning from the Novo and Roivant cases. What&rsquo;s the market and how big could it be? What&rsquo;s the indication expansion potential of a successful drug? Even though this drug failed here, has it still got potential? How much effort (money, time) does repurposing take? Biotech investors study these types of questions when making investment decisions. Health economics can take some inspiration from investors - we shouldn&rsquo;t lower our safety standards and be blindly supportive of pharma companies, but we can be more realistic about the value of drugs. NICE clearly has their eye on the future - as I mentioned earlier, they&rsquo;ve done CEAs of entire treatment pathways so future drugs can be integrated more easily. If there is an appetite to include drugs that haven&rsquo;t been approved yet, I don&rsquo;t think it’s a stretch to consider genericisation and scientific spillover in their calculations.</p>
+<h2 id="drugs-can-fall-through-the-cracks">Drugs can fall through the cracks</h2>
+<p>Unlike The Institute for Clinical and Economic Review (ICER) in the US which plays an advisory role on drug value, NICE has the final say. If NICE thinks a drug&rsquo;s effect on quality of life is not good enough to justify its price tag, then the drug is not bought by the NHS. In particular, new medicines that NICE considers to be cost-effective, but cost more than £20 million in any of its first three years on the market, are subject to price negotiations [22]. If a deal is not reached, then NICE can delay access to the drug. There are some workarounds: if a drug doesn&rsquo;t meet NICE criteria, it can still be made available via a Patient Access Scheme if a manufacturer makes a new commercial proposal, or there is a Managed Access Scheme for drugs where NICE approval is uncertain [22]. But still, because current cost-effectiveness calculations do not consider things like dynamic pricing or positive spillovers, drugs fall through the cracks.</p>
+<p>Enhertu is a drug that fell through the cracks. Enhertu can extend the lives of patients with HER2-low metastatic breast cancer (MBC) - a disease that affects over 1000 women in the UK [23] - by up to six months versus standard methods like chemotherapy [24, 25]. On average, it costs £118,000 for a full course of treatment for one patient [26]. It&rsquo;s expensive but it&rsquo;s a last-resort for patients who have tried other treatments. NICE rejected Enhertu in 2024 after being unable to reach a price agreement with AstraZeneca and Daiichi Sankyo [27].</p>
+<p>19 European countries have approved Enhertu, including Scotland. Although the NHS operates in all four UK countries, healthcare is devolved which means each country can set its own strategy. While NICE said no to Enhertu in England, Wales, and Northern Ireland, the Scottish Medicines Consortium (SMC) approved it [28]. How has that happened? NICE changed the severity of HER2-low MBC to &ldquo;moderate severity&rdquo; which shifted its cost-effectiveness calculations, deeming Enhertu too expensive. This has created a situation where English patients have considered moving to Scotland to gain access to this drug, but that obviously has considerable logistical constraints, including the fact they might die before moving and getting access.</p>
+<p>This article is not intended to be an attack on NICE. It&rsquo;s not an easy job being the health economics watchdog. It&rsquo;s an important and necessary role, rejections are amplified much more in the media than approvals, and it&rsquo;s one of those things where you&rsquo;re damned if you do (&ldquo;What about patient safety - they’re being too lax!&rdquo;), damned if you don&rsquo;t (&ldquo;Regulators denying innovation!&rdquo;). For the past six years, NICE has recommended all 21 breast cancer treatments proposed to them [27]. Enhertu is the first one they haven&rsquo;t. Under their new severity scheme, 17 out of 22 appraisals have been positive recommendations, including 2 treatments for advanced breast cancer [27]. Enhertu is an anomaly. Breast cancer advocacy groups like METUPUK even support the use of a severity scheme because, previously, there was no scheme at all and that resulted in many important drugs being denied funding [29]. METUPUK are simply advocating for tweaks to this system to make it work better for patients. NICE is not some evil entity denying patients drugs. They are staunchly pro-patients and pro-drugs.</p>
+<p>My aim here is to broaden their thinking about what constitutes value. Instead of getting NICE to reconsider its approach to disease classification, I&rsquo;ve taken a wider lens to better describe the value created from drugs that they aren&rsquo;t including in their CEAs. If we included genericisation, the price of Enhertu would decrease significantly within a decade and the societal value relative to price in the long run would be huge. The scientific spillover effect building off the learnings from Enhertu could inspire more advanced breast cancer (maybe even general cancer) drugs. Additionally, it sends a great signal to people working in women&rsquo;s healthcare - a market that affects half of the global population but, as of 2020, only receives 5% of global funding [30] - that their riskier, blue skies work is worth trying.</p>
+<h2 id="conclusion---the-added-complication">Conclusion - the added complication</h2>
+<p>I want to step back for a moment and discuss why comparing CEA methods between countries is such a difficult issue. We aren&rsquo;t just comparing drug pricing, but drug pricing within different healthcare systems. The main comparison here is between the American and British (or more broadly, European) approaches: America has a market-driven system all the way down, while Europe mostly has nationalised healthcare systems. This distinction reflects a deeper philosophical divide between American and European values. Europeans value equality as highly as innovation, while Americans believe in maximising innovation, with the assumption it will naturally bring about equality. As a European, I find the concept of leaving healthcare entirely to market forces problematic - not just morally, but also because it assumes a link between innovation and equality that isn&rsquo;t guaranteed.</p>
+<p>The empirical evidence presents compelling arguments for both approaches. In the US, pharmaceutical innovation has contributed significantly to public health, accounting for 35% of the 3.3-year improvement in life expectancy between 1990 and 2015 [31]. When you account for the fact that pharma spending in the US is just 8% of all their healthcare spending [32], it&rsquo;s clear that drugs give you your money&rsquo;s worth. The American system demonstrates some clear advantages: shorter waiting times [33], better salaries for doctors, and world-leading medical research [34]. However, these benefits have to be weighed against the fact that 25.3 million uninsured Americans (9.5% of the total population) consume significantly less healthcare than their insured counterparts - this is a critical gap in coverage [35]. The NHS, on the other hand, provides the intangible yet crucial benefit of peace-of-mind through universal coverage, guaranteed access to care, and greater standardisation since all hospitals fall under the NHS umbrella. And it still produces top research, though funding (or rather chronic underfunding) remains a problem for resources and salaries.</p>
+<p>A weird relationship exists between these systems. America&rsquo;s fragmented health insurance landscape and resistance to aggressive price negotiations means it pays close to asking price for pharmaceuticals. While this approach has its flaws - mainly that it costs a lot - it effectively sustains the global pharma innovation ecosystem because companies can make profit through the US system and continue making drugs. The NHS&rsquo;s powerful position as a single-payer system enables it to negotiate much lower prices - a strategy that, without American market support, could potentially devastate pharmaceutical innovation within decades [36]. In essence, America&rsquo;s higher prices subsidise Europe&rsquo;s ability to maintain comprehensive drug coverage at lower costs.</p>
+<p>Politically, Europe isn&rsquo;t going to shift to a full free-market model anytime soon. As a British citizen, I don&rsquo;t want us to. I believe in the NHS and strong public systems. But that leaves us with a challenging problem: how can we maintain a universal healthcare system that can procure, or even make, cutting-edge medicines while simultaneously supporting the global pharma innovation system currently upended by the US?</p>
+<p>While a comprehensive answer to this question requires extensive research, immediate improvements are possible within our current framework - we can value drugs accurately and pay more for them. Specifically, NICE can enhance its evaluation methods by incorporating dynamic components into its calculations. This essay has focused on two critical aspects: the long-term impact of genericisation on drug pricing and the value of scientific spillovers. Maybe financial constraints will continue to limit drug approvals, but at least we&rsquo;ll know what we&rsquo;re truly missing out on. By transitioning toward broader CEAs, we can develop a more accurate picture of pharmaceutical value, ensuring that our healthcare decisions are based on the fullest possible understanding of both immediate and long-term benefits.</p>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>Thanks to Edouard AL-Chami for reading drafts of this essay, and to Edouard, Mehdi Aghdaee, and Peter Kolchinsky for helpful discussions and constructive disagreements around the US healthcare system&rsquo;s philosophy versus others.</p>
+<p>This essay was completed as part of the <a href="https://www.nopatientleftbehind.org/">No Patient Left Behind</a> fellowship - thank you to the course leads Elena Solopova, Peter Rubin, and Peter Kolchinsky for organising a great course and helping me learn a ton about US healthcare and the global pharma ecosystem.</p>
+<h2 id="references">References</h2>
+<p>[1] Brough, A, &amp; Hunt, M. “<a href="https://www.ispor.org/docs/default-source/euro2019/pns273---icer---similarities-and-differences-between-uk-england-and-usa-cost-effectiveness-watchdogs-pdf.pdf?sfvrsn=9f4b7b98_0">ICER: similarities and differences between UK (England) and USA cost-effectiveness watchdogs</a>” (2019), ISPOR Europe. <br />
+[2] NICE. “<a href="https://www.nice.org.uk/guidance/ta964/documents/draft-guidance">Renal cell carcinoma pathway model report</a>” (2023), NICE Website. <br />
+[3] NICE &amp; Bristol Technology Assessment Group. “<a href="https://www.nice.org.uk/guidance/gid-ta11289/documents/supporting-documentation-3#:~:text=model%20NICE%20will%20be%20able,(stage%204)%20NSCLC%20pathway.&amp;text=NICE%20has%20found%20that%2043,a%20single%20point%20in%20time.">Treatments for non-small-cell lung cancer [ID6234]: Analysis Plan</a>” (2023), NICE Website. <br />
+[4] Shafrin et al. “<a href="https://www.degruyter.com/document/doi/10.1515/fhep-2024-0014/html">Valuing the Societal Impact of Medicines and Other Health Technologies: A User Guide to Current Best Practices</a>” (2024), Forum for Health Economics and Policy. <br />
+[5] Kolchinsky, P. &ldquo;The Great American Drug Deal: A New Prescription for Innovative and Affordable Medicines&rdquo; (2019), Evelexa Press. <br />
+[6] No Patient Left Behind. “<a href="https://nopatientleftbehind.docsend.com/view/da58aucpn95mx3pn">Healthcare Affordability + Innovation</a>” (2020), No Patient Left Behind Website. Accessed 20/11/24. <br />
+[7] Neumann, P. et al. “<a href="https://www.valueinhealthjournal.com/article/S1098-3015(21)01645-4/fulltext">Do Cost-Effectiveness Analyses Account for Drug Genericization? A Literature Review and Assessment of Implications</a>” (2022), ISPOR. <br />
+[8] New York Times, “<a href="https://www.nytimes.com/2023/01/28/business/humira-abbvie-monopoly.html">How a Drug Company Made $114 Billion by Gaming the U.S. Patent System</a>” (x), New York Times Website. Accessed 01/12/24. <br />
+[9] ICER. “<a href="https://icer.org/wp-content/uploads/2020/09/Cystic_Fibrosis_Response_to_Comments_05032018.pdf">Response to Public Comments on Draft Evidence Report</a>” (2018), ICER Website. <br />
+[10] Xie, R.Z., Towse, A., Garrison, L.P. “<a href="https://www.cambridge.org/core/journals/international-journal-of-technology-assessment-in-health-care/article/should-we-pay-for-scientific-knowledge-spillovers-the-underappreciated-value-of-failed-rd-efforts/50967DA64C83CF6E1FAB0DC56E1CBEA9">Should We Pay for Scientific Knowledge Spillovers? The Underappreciated Value of “Failed” R&amp;D Efforts</a>” (2022), International Journal of Technology Assessment in Health Care. <br />
+[11] Aghion, P. &amp; Jaravel, X. “<a href="https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12199">Knowledge Spillovers, Innovation and Growth</a>” (2015). The Economic Journal. <br />
+[12] Scotchmer, S. “<a href="https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.5.1.29">Standing on the Shoulders of Giants: Cumulative Research and the Patent Law</a>” (1991), Journal of Economic Perspectives. <br />
+[13] Magazzini L., Pammolli F., &amp; Riccaboni M. “<a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1740-4762.2012.01027.x">Learning from Failures or Failing to Learn? Lessons from Pharmaceutical R&amp;D</a>” (2012), European Management Review. <br />
+[14] Krieger J.L. “<a href="https://par.nsf.gov/servlets/purl/10400563">Management Science Trials and Terminations: Learning from Competitors’ R&amp;D Failures</a>” (2023), Management Science. <br />
+[15] Ren, F., Aliper, A., Chen, J. et al. “<a href="https://www.nature.com/articles/s41587-024-02143-0">A small-molecule TNIK inhibitor targets fibrosis in preclinical and clinical models</a>” (2023), Nature Biotechnology. <br />
+[16] Ewald, C.Y. et al. “<a href="https://www.cell.com/trends/pharmacological-sciences/fulltext/S0165-6147(24)00090-7">TNIK’s emerging role in cancer, metabolism, and age-related diseases</a>” (2024), Trends in Pharmacological Sciences. <br />
+[17] Insilico Medicine, “<a href="https://insilico.com/pipeline">Pipeline | Insilico Medicine</a>”, Insilico Medicine Website. Accessed 29/11/24. <br />
+[18] Mestre-Ferrandiz J. “<a href="https://www.ohe.org/news/reasons-discontinuation-rd-projects-lead-and-follow-indications/">Reasons for Discontinuation of R&amp;D Projects: Lead and Follow-on Indications</a>” (2013), EuroMeeting Conference. <br />
+[19] Flier, J.S. &ldquo;<a href="https://muse.jhu.edu/article/936213">Drug Development Failure: How GLP-1 Development Was Abandoned in 1990</a>&rdquo; (2024), Perspectives in Biology and Medicine, Project MUSE. <br />
+[20] Wu, G. “<a href="https://www.biopharmadive.com/news/matt-gline-roivant-axovant-priovant/640868/">Roivant’s Matt Gline on the hub-and-spoke biotech model and lessons learned from Axovant</a>” (2023), BioPharma Dive. Accessed 26/11/24. <br />
+[21] Kames, B. Tweet: &ldquo;<a href="https://x.com/kamens/status/1858585137690407038%22">https://x.com/kamens/status/1858585137690407038&quot;</a> (2024), X. <br />
+[22] NHS Support Federation. &ldquo;<a href="https://lowdownnhs.info/explainers/billions-are-spent-by-the-nhs-on-drugs-every-year-but-how-does-it-work/">Billions are spent by the NHS on drugs every year, but how does it work?</a>&rdquo; (2021), The Lowdown. Accessed 11/11/24. <br />
+[23] Burns, C. &amp; Loader, V. “<a href="https://www.bbc.co.uk/news/articles/c7v6g9q6rjqo">Enhertu: Breast cancer patients denied life-extending drug in NHS row</a>” (2024), BBC News. Accessed 01/12/24. <br />
+[24] Modi S. et al. “<a href="https://www.nejm.org/doi/10.1056/NEJMoa2203690">Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer</a>” (2022), New England Journal of Medicine. <br />
+[25] AstraZeneca, “<a href="https://www.astrazeneca.com/media-centre/press-releases/2024/Enhertu-demonstrated-median-progression-free-survival-thirteen-months.html">Enhertu demonstrated a median progression-free survival of 13.2 months in HR-positive, HER2-low and HER2-ultralow metastatic breast cancer following one or more lines of endocrine therapy</a>” (2024), AstraZeneca Website. Accessed 02/12/24. <br />
+[26] Meredith, S. “<a href="https://www.medscape.co.uk/viewarticle/nice-expands-approval-range-enhertu-advanced-breast-cancer-2022a10028qr">NICE Expands Approval Range for Enhertu in Advanced Breast Cancer</a>” (2022), Medscape UK. Accessed 02/12/24. <br />
+[27] NICE. “<a href="https://www.nice.org.uk/news/articles/nice-disappointed-that-companies-unwilling-to-offer-fair-price-to-the-nhs-to-make-enhertu-available">NICE disappointed companies unwilling to offer fair price to make Enhertu available for advanced breast cancer</a>” (2024), NICE Website. Accessed 02/12/24. <br />
+[28] DHSC Media Team, “<a href="https://healthmedia.blog.gov.uk/2024/07/30/enhertu-everything-you-need-to-know/">Enhertu: Everything you need to know</a>” (2024), UK Government Website. Accessed 03/12/24. <br />
+[29] METUPUK. “<a href="https://metupuk.org.uk/2024/07/breast-cancer-patients-denied-life-extending-drug-by-nice/">Breast cancer patients denied life-extending drug by NICE</a>” (2024), METUPUK Website. Accessed 30/12/24. <br />
+[30] “<a href="https://www.nature.com/articles/s44222-024-00253-7">Funding research on women’s health</a>” (2024), Nature Reviews Bioengineering. <br />
+[31] Buxbaum J.D. et al. “<a href="https://www.healthaffairs.org/doi/full/10.1377/hlthaff.2020.00284">Contributions Of Public Health, Pharmaceuticals, And Other Medical Care To US Life Expectancy Changes, 1990-2015</a>” (2020), Health Affairs. <br />
+[32] Kolchinsky, P. “<a href="https://rapport.bio/all-stories/best-8-percent-of-our-healthcare-dollar">A lot for a little: The best 8% slice of our healthcare dollar</a>” (2024), RApport. Accessed 05/12/24. <br />
+[33] Ridic, G., Gleason S., &amp; Ridic, O. “<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3633404/#:~:text=Unlike%20in%20Canada%20and%20Europe,for%20reimbursing%20health%20care%20providers">Comparisons of Health Care Systems in the United States, Germany and Canada</a>” (2012), Materia Sociomedica. <br />
+[34] Owens, B. “<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14)61114-4/fulltext">Mapping biomedical research in the USA</a>” (2014), The Lancet. <br />
+[35] Tolbert J. et al. “<a href="https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/">Key Facts about the Uninsured Population</a>” (2024), KFF. Accessed 03/01/25. <br />
+[36] Kolchinsky, P. “<a href="https://rapport.bio/all-stories/can-the-european-scorpion-hold-its-sting">Can the European scorpion hold its sting?</a>” (2023), RApport. Accessed 13/11/24.</p>
+<p>This post can be cited as:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">@article{vijayaraghavan2025nice, 
+</span></span><span class="line"><span class="cl">    title = &#34;We can improve NICE’s drug valuation methods&#34;,
+</span></span><span class="line"><span class="cl">    author = &#34;Vijayaraghavan, Avish&#34;, 
+</span></span><span class="line"><span class="cl">    journal = &#34;avishvj.github.io&#34;, 
+</span></span><span class="line"><span class="cl">    year = &#34;2025&#34;, 
+</span></span><span class="line"><span class="cl">    url = &#34;https://avishvj.github.io/posts/nice_gcea/&#34;
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></div></section>
+    <section>
+      <footer class="page-footer">
+		<hr>
+
+    <div class="previous-post" style="display:inline-block;">
+      
+      <a class="link-reverse" href="http://avishvj.github.io/posts/nonfiction18to20/?ref=footer">« Short notes on 10 non-fiction books, 2018-2020</a>
+      
+    </div>
+
+    <div class="next-post", style="display:inline-block;float:right;">
+      
+    </div>
+
+		<ul class="page-footer-menu">
+
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      
+      
+        <li><a href="https://github.com/avishvj"> GitHub</a></li>
+      
+        <li><a href="https://x.com/avishvj"> X</a></li>
+      
+        <li><a href="https://uk.linkedin.com/in/avish-vijayaraghavan"> LinkedIn</a></li>
+      
+        <li><a href="https://open.spotify.com/artist/77JwWnM4Tq5EOanhEguNuw"> My Music</a></li>
+      
+		</ul>
+
+  
+    <p>
+      Powered by <a href="https://gohugo.io">Hugo</a> and the
+      <a href="https://github.com/slashformotion/hugo-tufte">Tufte theme</a>.
+    </p>
+  
+
+	<div class="copyright">
+	<p>
+    
+      &copy; 2025
+    Avish Vijayaraghavan.
+    All rights reserved.
+    
+  </p>
+</div>
+</footer>
+
+    </section>
+  </article>
+</div>
+
+    </body>
+
+</html>
