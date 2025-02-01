@@ -6,11 +6,20 @@
     <description>Recent content in Categories on Avish Vijayaraghavan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://avishvj.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://avishvj.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>biotech investing</title>
+      <link>http://avishvj.github.io/categories/biotech-investing/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://avishvj.github.io/categories/biotech-investing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>health economics</title>
       <link>http://avishvj.github.io/categories/health-economics/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/health-economics/</guid>
       <description></description>
@@ -19,7 +28,7 @@
     <item>
       <title>nice</title>
       <link>http://avishvj.github.io/categories/nice/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/nice/</guid>
       <description></description>
@@ -28,9 +37,18 @@
     <item>
       <title>pharma</title>
       <link>http://avishvj.github.io/categories/pharma/</link>
-      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/pharma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>policy</title>
+      <link>http://avishvj.github.io/categories/policy/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://avishvj.github.io/categories/policy/</guid>
       <description></description>
     </item>
     
@@ -76,15 +94,6 @@
       <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>http://avishvj.github.io/categories/ai-for-drug-discovery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>biotech investing</title>
-      <link>http://avishvj.github.io/categories/biotech-investing/</link>
-      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://avishvj.github.io/categories/biotech-investing/</guid>
       <description></description>
     </item>
     
