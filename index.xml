@@ -94,8 +94,8 @@
       <pubDate>Sun, 28 Aug 2022 00:28:30 +0100</pubDate>
       
       <guid>http://avishvj.github.io/about/</guid>
-      <description>I’m currently doing my PhD in AI for Healthcare at Imperial with a focus on clinical multi-omics. On the ML side, I’m working on interpretability, multi-modal learning, and NLP, and on the medical side, IPF, Parkinson’s, and histopathology workflows. Before the PhD, I did a bachelor’s in maths and computer science at Imperial and a master’s in precision medicine at UCL. My CV is available here.
-On the careers side, I’ve done a couple research internships - one with Microsoft Research&amp;rsquo;s BioML team, and another between the NHS and Great Ormond Street Hospital&amp;rsquo;s Data Science teams.</description>
+      <description>I&amp;rsquo;m a scientist-engineer interested in AI, pharma, and politics, based in West London. My mission is to build out a pharma model that works with the NHS. My research interests cover interpretability (models that we can understand), multi-modal learning (models that combine multiple data modalities together), and deploying models in real clinical settings.
+I&amp;rsquo;m currently doing a PhD in AI for Healthcare at Imperial working on clinical multi-omics models for idiopathic pulmonary fibrosis, a rare lung disease.</description>
     </item>
     
   </channel>
