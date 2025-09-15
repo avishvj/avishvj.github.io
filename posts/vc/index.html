@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-gb"><head>
+<title>Avish Vijayaraghavan - VC in 30 minutes</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description"
+    content="An informal primer on the venture capital industry ">
+<link rel="canonical" href="http://avishvj.github.io/posts/vc/" />
+
+<link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+  
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
+
+
+
+<link rel="stylesheet" href="/css/hugo-tufte.min.css">
+
+<link rel="stylesheet"  href="/css/hugo-tufte-override.css">
+
+
+
+</head>
+<body >
+        
+<div id="layout" class="pure-g">
+  <article class="pure-u-1">
+    <header class="brand">
+  <a href="http://avishvj.github.io"><h1>Avish Vijayaraghavan</h1></a>
+  <h2></h2>
+  <nav class="menu">
+    <ul>
+    
+        <li><a href="/about/">About Me</a></li>
+    
+        <li><a href="/">Recent Posts</a></li>
+    
+        <li><a href="https://www.youtube.com/@avishvijayaraghavan">YouTube</a></li>
+    
+        <li><a href="https://scholar.google.com/citations?user=hMWDDRgAAAAJ&amp;hl=en">Publications</a></li>
+    
+    </ul>
+</nav>
+
+  <hr />
+</header>
+
+    <section>
+  
+  <h1 class="content-title">
+    
+    <a href="/posts/vc/">VC in 30 minutes</a>
+    
+  </h1>
+  
+    
+      <p class=subtitle>An informal primer on the venture capital industry</p>
+    
+    
+      <span class="content-meta">
+        
+    
+            
+        
+          <i class="fa fa-calendar"></i>
+          &nbsp;Sep 15, 2025
+        
+    
+        
+          &nbsp;<i class="fa fa-clock-o"></i>
+          &nbsp;29 min read
+        
+    
+        
+          <br>
+          <i class="fa fa-tags"> </i>
+          
+            <a  href="http://avishvj.github.io/categories/book-summary">book summary</a>
+          
+            <a  href="http://avishvj.github.io/categories/finance">finance</a>
+          
+            <a  href="http://avishvj.github.io/categories/venture-capital">venture capital</a>
+          
+        
+      </span>
+    
+  
+  </section>
+    
+<section>
+  <details closed class="toc">
+    <summary>Contents</summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#a-top-down-view-of-the-financial-system">A top-down view of the financial system</a></li>
+    <li><a href="#risk-return-profiles-in-venture">Risk-return profiles in venture</a></li>
+    <li><a href="#people-product-market">People, product, market</a></li>
+    <li><a href="#exits">Exits</a></li>
+    <li><a href="#the-vc-ecosystem">The VC ecosystem</a>
+      <ul>
+        <li><a href="#lps-and-gps">LPs and GPs</a></li>
+        <li><a href="#types-of-lps-and-what-they-care-about">Types of LPs and what they care about</a></li>
+        <li><a href="#the-supporting-cast">The supporting cast</a></li>
+      </ul>
+    </li>
+    <li><a href="#jargon-you-should-know">Jargon you should know</a>
+      <ul>
+        <li><a href="#funding-mechanics">Funding mechanics</a></li>
+        <li><a href="#deal-terms">Deal terms</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-founder--startup-perspective">The founder / startup perspective</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+  </details>
+</section>
+
+
+    <section><p><em>Disclaimer: Most of this post is based on a book by Scott Kupor. Anything I get right is on him, anything wrong is on me. I’ve not worked in this industry, I made these notes purely to educate myself. Don’t use this for financial advice.</em></p>
+<h2 id="introduction">Introduction</h2>
+<p>This article is mostly notes from Scott Kupor’s <em>Secrets from Sand Hill Road</em>. Scott was an early employee at Loudcloud (an early SaaS company that renamed to Opsware and got acquired by HP) and later joined his bosses Marc and Ben to set up a16z, a leading venture capital (VC) firm in America. He knows VC inside-out, this book is his primer to the industry. I’ve summarised most of it here, mostly for myself, but maybe it’s useful for you too.</p>
+<p>I actually went into the book with a bit of animosity towards venture, which I think was just vague distrust of the finance industry. Some combination of <a href="https://x.com/VCBrags">VCs talking nonsense on social media</a>, some resentment towards banks getting bailed out in ‘08 (completely unrelated to venture), and a caricatured view of what finance actually is.</p>
+<p>I’m afraid to say I understand venture now and think it might well be the greatest corporate job out there. People literally take tonnes of money from rich people and shift it around into big swing companies that could be worth billions in ten years, they use cool words like “deploy”, “allocate”, and “syndicates” to describe that process, and their job pretty much requires them to be deluded.</p>
+<p>Investor archetypes, from my representative sample of the X “For You” page, seem to fall into either (1) some science/tech wizard who invented That Thing You Use Literally All The Time, (2) the pro-tech humanities and MBA crowd, often Ivy-/Oxbridge-coded, or (3) Montessori-educated people. I think it used to be a family-and-friends-only type of industry - it probably still is in 90% of cases - but things like <a href="https://www.youtube.com/@20VC">the 20VC podcast</a> and LinkedIn have opened it up so anyone can at least understand and try to get involved. Inevitably, that has increased the company slop, but the gates are the most open they’ve ever been and that is good.</p>
+<p>Here&rsquo;s the industry TLDR. VC is made up of limited partners (LPs) - very rich people and/or organisations, think sheiks or sovereign wealth funds - who give money to VC firms headed up by general partners (GPs), who then go and invest this money into early-stage companies. The aim being that if any of these companies goes public or gets acquired, both the GPs and the LPs make a lot of money, while also providing value to society in the form of companies, their products, and their jobs. Funds are characterised based on the stages they invest in a company (e.g. pre-seed up to series A, sometimes B, occasionally C, rarely D+), investment theses (their philosophy around investing and types of companies), portfolio constructions (which specific group of companies and/or industries they invest in), and return expectations (how much money they want back).</p>
+<p>Okay, now let’s get into it properly. Where venture fits into the financial system, risk-return profiles, what investors look for, exits, the VC ecosystem, jargon, and the founder perspective.</p>
+<h2 id="a-top-down-view-of-the-financial-system">A top-down view of the financial system</h2>
+<p>Here we come to the wonderful thing that is the modern financial system. Huge institutional funds invest in smaller asset classes, these asset classes invest in companies. And this isn’t a Ponzi scheme because regulation makes it somewhat fair and actual value is created for people. Most of the time, some of the time.</p>
+<p>Initially, it seems like none of this makes sense. People shift money down and then it goes back up and out. How is more created? This is the key point - wealth creation is not zero sum. Kupor doesn’t say this directly but <a href="https://nav.al/rich">I’m paraphrasing a Navalism</a>. Money goes in to create something which creates jobs and then that thing gets cheaper as it scales and knowledge of the technology democratises. This is a process of technology diffusion supported by science, business, the finance industry, the legal system, and appropriate government policy. Very loosely, I think this is the classical American model for society based on growth and progress.</p>
+<p>The financial system is built up of many building blocks. One important building block is the concept of an asset class. Asset classes are categories of investments with similar characteristics - mainly their risk-return profiles.</p>
+<p>They come in all types of flavours. Those memecoins you lost all your money on at 19? Crypto baby! An asset class. That day in the not-so-distant future when you buy a parking spot in London for £1M? You’ve just invested in prime real estate buddy - another asset class.</p>
+<p>Well, VC itself is an asset class, the asset class of investments made into early-stage companies. Ah capitalism, you big beautiful beast that cannae be tamed. If you really think about it, maybe we’re all just asset classes in meat suits floating about on this big ol’ rock through space.</p>
+<p>It’s not a great asset class because most VCs don’t make enough money to justify the risks. The big wins are hoarded by top-tier firms because it&rsquo;s partially a signalling game: a &ldquo;tier-1&rdquo; VC invests in you with their deeper pockets, everyone thinks you’re amazing, you get more money from other &ldquo;tier-2/3&rdquo; VCs, and the cycle continues.</p>
+<p>The whole thing isn’t particularly fair - VC investing is gated off for rich people (a.k.a. &ldquo;accredited investors&rdquo;, usually $1M+ net worth), and the system ends up making rich people richer. But it&rsquo;s not completely unfair. As I said above, wealth creation and progress are not zero-sum. Things get created that help society. Rich people get richer but everyone who can afford the technology benefits and there’s an opportunity for educated, competent people working on a good idea to get richer too, regardless of their financial starting point. Understanding this helped me realise finance isn’t really an evil industry, it’s simply amoral. But anyway, I digress.</p>
+<h2 id="risk-return-profiles-in-venture">Risk-return profiles in venture</h2>
+<p>When people talk about &ldquo;venture capital&rdquo;, they&rsquo;re usually referring to venture equity - one of three main types of venture financing.</p>
+<p><em>Venture equity</em> investors give you substantial money in exchange for a stake in your company, betting they can generate enormous returns when you exit (either go public or get acquired) in five years or more.</p>
+<p><em>Venture debt</em> investors offer smaller amounts but expect repayment with interest on shorter timelines, while <em>venture philanthropy</em> doesn&rsquo;t expect returns at all - it&rsquo;s just wealthy individuals donating money to stuff they care about. I rate it, there&rsquo;s no point being rich unless you have weird passion projects like <a href="https://en.wikipedia.org/wiki/Munger_Hall">building windowless dorm rooms</a>.</p>
+<p><em>Angel investing</em> sits somewhere in this ecosystem as another form of early-stage equity investing, but involves individual wealthy people rather than professional firms, often writing smaller cheques at even earlier stages than traditional VCs, though the lines blur significantly as angels frequently co-invest alongside venture firms in the same deals.</p>
+<p>While all VC investments are inherently high-risk, high-reward, there&rsquo;s still a spectrum of return expectations across the industry. The biggest funds hunt for 100x or even 1000x gains, while smaller firms might be satisfied with 10-50x multiples, though even these &ldquo;lower&rdquo; targets represent extraordinary returns by traditional investment standards. The math behind this extreme appetite becomes clearer when you consider how a fund&rsquo;s priorities are different from yours: you might make the same amount selling a company for $200M where you own 50% as selling one for $1B where you own 10%, but that first outcome doesn&rsquo;t move the needle for investors managing large funds investing the same amount.</p>
+<p><a href="https://www.youtube.com/shorts/5lp-EE92y4E?app=desktop">Marc Andreessen (founder of tier-1 firm a16z) explains how this industry is driven entirely by outliers</a> - of roughly 4,000 companies seeking funding each year, only 200 get tier-1 VC backing, just 15 of those will eventually hit $100M+ in revenue, and those 15 companies generate around 97% of VC returns for that year. The reality is that most businesses simply aren&rsquo;t VC businesses because they can&rsquo;t deliver the anomalous, exceptional returns that make the entire model work - you&rsquo;re either in that tiny cohort of massive winners, or you&rsquo;re not.</p>
+<p>This is portfolio economics: invest in a lot of companies, hope one or two succeed. You’re playing an extreme form of baseball where it’s not about batting averages, just how many home runs. Most investments flop, but if one hits 100x returns? Boom, you won because that covers all your failed investments and then some. To un-Americanise this for a second, if your portfolio is a cricketing lineup, you want sloggers. Chris Gayles, not Rahul Dravids.</p>
+<p>So, if you’re a founder trying to figure out whether you want debt (which you&rsquo;ll pay back with interest) or equity (give up ownership and decision-making), it boils down to your business type, your production costs, your cash flow, and what kind of risk tolerance you have. If you can make cash fast, borrowing from a bank might be smarter. If not, equity is the way - especially if your business is risky (which banks hate), you’re not cash flow positive anytime soon, or you need long-term money (VC timelines are long compared to bank loans).</p>
+<h2 id="people-product-market">People, product, market</h2>
+<p>How do VCs decide where to invest? Three things: people, product, and market. The job of a VC is to find good ideas that sound like bad ideas. That’s it. If it’s too obvious, everyone’s already on it; too out-there, no one believes in it. The sweet spot is somewhere in between, which I’ve heard referred to as “five year contrarianism”. You’re contrarian for five years until the tide and markets shift your way, and now you’re right with a five year head start, i.e., a very likely monopoly and lots of money. Five years is good because VC funds usually last for ten years, and expect returns on their initial investment within 5-10y.</p>
+<p><strong>People</strong>: You only get one shot per market (because backing competitors would end up with serious conflicts of interest), so the question is: is this the best team for this idea? The ideal team has unique skills, backgrounds, or expertise that make them perfect for this company and problem. Also, borderline-delusional confidence is a must - you’re betting on someone who can drag an idea from impossible to inevitable. No wonder startup founders and investors are such sane, well-adjusted people. To exemplify my point, Peter Thiel is probably <a href="https://x.com/benln/status/1952799491964256392">the greatest VC of all time</a> (and that link doesn&rsquo;t even include his work with Founders Fund, another tier-1 VC) and <a href="https://www.youtube.com/watch?v=vV7YgnPUxcU">one of the most batshit people I’ve ever heard speak</a>.</p>
+<p><strong>Product</strong>: The product has to solve a fundamental need, not just be a &ldquo;nice to have&rdquo;. VCs look at how the founder navigated the <a href="https://www.youtube.com/watch?v=nz8O9lY4JQs">idea maze</a>: how they generated the idea, their reasoning behind it, and the evidence they’ve gathered so far. How are they going to deal with the case where that thing goes wrong? What about that other thing? Key metric here: is this product a massive improvement over what’s out there, or just another minor tweak?</p>
+<p><strong>Market</strong>: Bigger is better. A tiny market = tiny returns. One of my favourite Paul Graham quotes is &ldquo;<a href="https://www.paulgraham.com/convince.html?viewfullsite=1">Founders think of startups as ideas, but investors think of them as markets</a>&rdquo;. VCs want founders who understand their market inside and out - what it is now, what it could grow into, and how to own it. <strong>The very important caveat is that this market may not exist yet.</strong> The company may scale this market ridiculously (e.g., Airbnb took a sliver of Craiglist’s offerings and turned it into an entire market) or even outright create one (e.g., Uber creating the ride-sharing market, and arguably sparking the entire gig economy). Also note that this doesn’t mean that smaller businesses (i.e., smaller markets and revenues) shouldn’t exist or get funded, it just means that maybe they need a dedicated venture fund for smaller investments, or are outside VC territory.</p>
+<h2 id="exits">Exits</h2>
+<p>An exit refers to how investors get money on their investment by converting their equity back into cash or liquid securities. Liquid securities are things like publicly-traded stocks or government bonds, which are preferred to VC investments (keeping your money in a company) since VC is an illiquid asset class - basically meaning it&rsquo;s hard to get your money out. The conversion into a liquid asset is known as a liquidity event. It&rsquo;s the final step of the investment cycle where VCs &ldquo;exit&rdquo; their position in one of their companies.</p>
+<p>There are different types of exits. I’m going to loosely group them into good ones, neutral ones, and bad ones.</p>
+<p>The <strong>best</strong> outcomes are either an initial public offering (IPO) where the company “goes public” by listing its shares on a stock exchange or an acquisition where another company, usually a larger one, buys the startup. The acquisitions are handled by mergers &amp; acquisitions (M&amp;A) teams in investment banks. You can get acquired for less money than you’ve raised which isn’t necessarily bad but it’s not particularly good either. You can also be acquihired which is where a bigger company acquires not just your company, but you and your team.</p>
+<p>A little digression on IPOs - it’s much harder to make lots of money from IPOs these days. As a comparison, the Microsoft IPO in 1986 was at a $350M market cap and is now $3.8T (a 10800x increase) versus Facebook/Meta’s IPO in 2012 at a $100B market cap where it is now $1.9T (19x). The latter is still good but it’s less common to make ridiculous gains from investing at IPO stage these days. This is one reason that fewer IPOs happen these days, and even fewer still small-cap IPOs. IPOs also take a lot longer - in the dot com bubble, companies were IPO’ing on average 4y from founding. Before that, it took around 7y. Now, it often exceeds 10y. If you’re starting a company now, you’ll be private for longer than you think.</p>
+<p>Then you have a set of <strong>neutral to slightly negative</strong> exits.</p>
+<p>The first type is secondary sales - where VCs sell their shares early to other investors like other VCs or private equity firms before a major liquidity event occurs. VCs typically only sell early if they need liquidity for their fund or don’t believe the company will be successful, so this price is usually less than what they’d get for an IPO or acquisition.</p>
+<p>The second is a management buyout - where the company’s management team buys out investors. This happens when a company is underperforming or there’s a disagreement between management and investors about company direction.</p>
+<p>The third is recapitalisation - the company needs money but can&rsquo;t raise it through standard equity-based rounds due to poor performance or poor market conditions. So, they &ldquo;recapitalise&rdquo;, i.e., bring in new debt or new investors at restructured terms, and sometimes use some of those proceeds to buy out existing shareholders at a discount. This isn&rsquo;t really about paying dividends to happy investors - it&rsquo;s more like a financial reset where some investors get bought out (usually below what they hoped for) while the company tries to stabilise.</p>
+<p>The fourth is returning money back to investors, which we can call a &ldquo;controlled wind-down&rdquo; (not an official term). Why? The company’s tried pivoting to no avail, market conditions have changed, or they can’t raise a new round. And so, the management team returns money to the original investors so it’s not a complete loss. In the VC world where failure is almost expected, this is not a terrible outcome.</p>
+<p>And finally, the <strong>negative</strong> outcome: &ldquo;winding down&rdquo; due to failure. The startup has failed, assets are sold off, and any remaining proceeds are distributed to shareholders. VCs often recover little to nothing in these scenarios but it’s technically an “exit” since their investment position is now closed.</p>
+<h2 id="the-vc-ecosystem">The VC ecosystem</h2>
+<h3 id="lps-and-gps">LPs and GPs</h3>
+<p>Now we come to the main people behind venture capital - Limited Partners (LPs) and General Partners (GPs). LPs are the passive investors who supply the cash, and GPs are the active managers who deploy it, i.e., give it to companies. The LPs’ passivity has perks: they’re shielded from liabilities (i.e., debt, or more loosely, risks) the venture fund might face downstream. LPs are rich people or organisations who want to generate good returns without having to manage their money - that’s what they hire GPs for.</p>
+<p>The whole relationship between LPs and GPs is formalised in a Limited Partnership Agreement (LPA). It’s the legal bible that spells out economic terms (who owns what) and governance rules (how important decisions are made).</p>
+<p>LPs usually have broader requirements for what they’re interested in - they’ll care about the general investment domain (sector, stage, geography) and hire GPs who understand (or can learn about) the relevant market deeply to bring them the best ideas. The big challenge for GPs is accurate valuation - figuring out how much a portfolio company is worth.</p>
+<p>Alongside LP money, GPs also manage LP expectations. As a founder, if your company is the only big win in their portfolio and an acquisition offer comes along, the VC might push hard for it to lock in returns. This can be a conflict of interest if you feel you can keep going. GPs often sit on your board, so they have real, not just theoretical, influence over your company.</p>
+<p>One big win for LP-GP partnerships is no double taxation. Unlike when you invest in something like Google (Google pays corporate tax, and you pay personal tax on dividends on shares), LPs and GPs pay tax only once on fund earnings. Even better, many types of LPs - like university endowments and nonprofit foundations - are tax-free, which makes their VC profits higher. Different LPs have different constraints that dictate what they invest in.</p>
+<h3 id="types-of-lps-and-what-they-care-about">Types of LPs and what they care about</h3>
+<p>Here are some LPs that Kupor mentions:</p>
+<ul>
+<li><em>University endowments</em> (e.g., The Harvard Endowment): fund operating costs and scholarships for universities and sometimes fund things like new buildings. They want predictable streams of revenue.</li>
+<li><em>Foundations</em> (e.g., The Gates Foundation, The Michael J Fox Foundation): given money by their benefactors (very rich people who give charitable donations out) and expected to exist in perpetuity on these funds. Required to pay 5% of their funds as part of their mission so need to exceed this 5% level.</li>
+<li><em>Corporate and state pension funds</em>: provide pensions for their retirees, funded mostly by contributions from current employees.</li>
+<li><em>Family offices</em>: investment managers for very-high-net-worth families. Goals set by families and include multigenerational wealth preservation and/or funding large charitable efforts.</li>
+<li><em>Sovereign wealth funds</em> (e.g. Norway’s Oil Fund, Singapore’s GIC): state-owned wealth funds, i.e., manage economic reserves of a country to benefit current or future generations of their citizens.</li>
+<li><em>Insurance companies</em>: earn premiums (i.e., the monthly/yearly payments made as part of insurance) from their policyholders and invest those premiums when required to pay out future benefits.</li>
+<li><em>Fund of funds</em>: private firms that raise money from their own LPs and then invest in VC or other asset classes.</li>
+</ul>
+<p>LPs have clear benchmarks like the S&amp;P 500, Nasdaq, or Russell 3000 to beat. If the S&amp;P 500 returns 7% annualised over a 10-year period, LPs typically want 12-15% returns from their VC portfolio to justify the extra risk.</p>
+<p>LPs also think in terms of fund <em>vintages</em> - the year a fund was raised and started investing. You can&rsquo;t fairly compare a 2008 vintage fund (financial crisis) to a 2017 vintage (bull market), so LPs use vintage years to benchmark performance against funds that faced similar market conditions.</p>
+<p>Their main enemy is inflation - the silent portfolio killer that erodes real returns and forces everyone to chase higher nominal gains just to stay even. This pushes LPs toward strategic asset allocation, spreading their investments across different categories that respond differently to economic conditions. Their investment parameters revolve around three key factors: willingness to accept volatility, time horizon, and level of diversification.</p>
+<p>LPs typically divide their investments into three main buckets: growth assets, inflation hedges, and deflation hedges.</p>
+<p><strong>Growth assets</strong> are designed to earn returns in excess of what safer assets like bonds and cash can deliver - this includes public equities (stocks on public exchanges), private equity (stocks not publicly traded but managed by funds dealing in privately-held companies), and hedge funds (which invest mostly in publicly-traded equities but can take both long positions - buying stocks - and short positions - betting stocks will decline, often seen as uncorrelated with broader equity markets).</p>
+<p><strong>Inflation hedges</strong> protect against currency devaluation during inflationary periods, including real estate (where landlords can raise rents with inflation), commodities like gold and silver (physical assets with (supposedly) intrinsic value), and natural resources like oil, timber, and agriculture (since inflation often signals economic expansion requiring more resources).</p>
+<p>Finally, <strong>deflation hedges</strong> protect during deflationary periods - bonds (which are inversely correlated with interest rates) and cash (since a dollar tomorrow is worth more than a dollar today in a deflationary environment).</p>
+<h3 id="the-supporting-cast">The supporting cast</h3>
+<p>Beyond founders, GPs, and LPs, there&rsquo;s a whole group of people who make the machine work. Your <em>board of directors</em> typically has 3-7 members and meets quarterly to approve major decisions like acquisitions or new funding rounds and provide strategic guidance. The board usually includes founders, investors, and <em>independent directors</em> who bring outside expertise without the baggage of owning shares.</p>
+<p>Within VC firms, there&rsquo;s a general hierarchy that founders need to understand. <em>Analysts</em> are your entry point - they&rsquo;re early in their careers, sourcing deals and doing market research, and they can champion your startup internally if you impress them. <em>Associates</em> and <em>principals</em> handle due diligence and deal evaluation, while <em>vice presidents (VPs)</em> take on more post-investment work. <em>Partners</em> are the real decision-makers who can approve investments and sit on boards. At the top, <em>GPs</em> oversee firm strategy and major decisions.</p>
+<p>Then you have the part-time players who can be incredibly valuable. <em>Venture partners</em> are usually experienced entrepreneurs or executives who work with the firm part-time to source deals or advise portfolio companies. <em>Operating partners</em> focus on helping startups scale - think hiring, strategy execution, operational expertise - but they&rsquo;re less involved in investment decisions. <em>Entrepreneurs-in-residence</em> (EIRs) are seasoned founders temporarily affiliated with the firm, often while they&rsquo;re cooking up their next venture or helping with due diligence.</p>
+<p>There is a lot on the legal side but my main takeaway from Kupor’s book was GPs have duties of <em>care</em>, <em>loyalty</em>, <em>confidentiality</em>, and <em>candor</em> - basically they&rsquo;re legally obligated to be kind of nice to you. They want you to win because they win too, but if things go sideways, they have to protect themselves and their other stakeholders. This creates natural tensions that are worth understanding upfront, especially around board decisions and exit scenarios.</p>
+<h2 id="jargon-you-should-know">Jargon you should know</h2>
+<p>This is the most boring section but it&rsquo;s necessary. I’ve tried to explain all the following stuff as concisely and simply as possible, using examples where I can - please read the entire section before questioning certain terms. The jargon is <em>italicised</em>.</p>
+<p>The overall thing you need to understand is that you have equity (i.e., ownership) in your company that can change. Every time you raise money from VCs, your equity dilutes (i.e., lowers) and the VCs gain equity in return. For example, if a VC agrees to invest $5M for 20% equity, you will be diluted by 20%, so if you owned 10%, you now own (10% * (100-20%) =) 8%. At some point, your company exits and you pay back respective shareholders and hopefully yourselves. The following jargon helps explain bits of this process and how it stays fair.</p>
+<h3 id="funding-mechanics">Funding mechanics</h3>
+<p>The <em>term sheet</em> is basically the blueprint for how your VC deal works, and it&rsquo;s where the power dynamics between founders and investors show up. When you first start your company, everyone (founders, early employees) gets <em>common shares</em> - basic ownership with voting rights but no special privileges. VCs get <em>preferred shares</em>, which means they get paid first if things go sideways and often come with extra voting rights. The payments are called <em>dividends</em>. When we talk about <em>valuation</em>, it&rsquo;s simple math: if your company is worth $40M pre-money and a VC invests $10M, your post-money valuation is $50M, and they own (10M/50M =) 20%. The tricky bit is that this also includes any <em>convertible debt</em> you&rsquo;ve raised and your <em>employee option pool</em> - the bigger that pool, the smaller your effective pre-money valuation actually is.</p>
+<p>Before you get to proper VC rounds, you&rsquo;ll probably raise money through <em>convertible debt</em> or <em>SAFEs</em>. Convertible debt is essentially a loan that converts into equity in your next funding round - it&rsquo;s quicker and cheaper to set up than equity financing, but you&rsquo;re technically borrowing money with interest.  For example, you might raise $200K on a convertible note with 8% interest and a $5M valuation cap - after a year, that&rsquo;s (200*1.08=) $216K converting into your Series A. SAFEs (Simple Agreement for Future Equity) are similar but more founder-friendly because they&rsquo;re not actually loans, so no interest to worry about. You might raise $200K on a SAFE with a $5M valuation cap - when you do your Series A at $10M, that SAFE converts at the $5M cap, giving the investor twice as many shares as if they&rsquo;d invested at the Series A price. Both let you raise money quickly without having to nail down a precise valuation. Although, you should be careful about stacking multiple rounds of either convertible notes or SAFEs because it can get messy fast.</p>
+<p>The <em>employee option pool</em> is basically a chunk of company equity (usually 10-20%) set aside to give shares to future employees as additional incentives alongside their main salary. The challenge is that VCs typically want this pool created before they invest, which effectively reduces your pre-money valuation. Say you agree to a $40M pre-money valuation and the VC wants a 15% option pool created. That 15% doesn&rsquo;t come from the VC&rsquo;s money - it gets carved out of the existing shareholders&rsquo; ownership (you and your co-founders). So if you owned 80% before, you now own 68% (80% × 85%), and then the VC investment dilutes you further. You&rsquo;re essentially paying for the option pool yourself, not the VC, even though it was their requirement.</p>
+<h3 id="deal-terms">Deal terms</h3>
+<p><em>Liquidation preference</em> dictates who gets paid first and how much during a liquidation event (sale, merger, shutdown). Most deals are <em>1x non-participating</em>, meaning the VC gets their original investment back first (the &ldquo;1x&rdquo; part), then chooses whether to take just that money or convert to common shares for their percentage ownership - whichever is better for them. For example, if a VC invested $2M for 20% and the company sells for $15M, they can take their $2M back first, or convert to common and get 20% of $15M = $3M (they&rsquo;d obviously choose the $3M). <em>Participating preferred</em> is where the VC gets their investment back and their equity share - so they&rsquo;d get $2M + $3M = $5M total. This is pretty rare because it&rsquo;s quite founder-unfriendly.</p>
+<p>There&rsquo;s also <em>anti-dilution protection</em> (ADP) for VCs (typically, not for founders) in case your next round is at a lower valuation. Say a VC invested $1M at $1 per share, getting 1 million shares for 20% ownership. If your next round happens at $0.50 per share, <em>broad-based weighted average</em> (the most founder-friendly form of ADP) adjusts the VC&rsquo;s conversion price to something like $0.80 per share based on how much new money came in and includes all outstanding shares in the calculation - so they&rsquo;d get 1.25 million shares instead of their original 1 million. <em>Narrow-based weighted average</em> is more aggressive, only counting common shares and options in the calculation, which typically results in a lower conversion price (maybe $0.70) and more shares for the VC. <em>Full ratchet</em> is the most aggressive - it completely resets their price to $0.50, so they now get 2 million shares (double their original amount). This massively protects the VC from dilution but screws over founders and employees because all that extra dilution has to come from somewhere - your ownership percentages shrink to make room for the VC&rsquo;s increased stake.</p>
+<p><em>Vesting</em> schedules are how founders and employees earn their equity over time, typically four years with a one-year cliff - meaning if you leave before your first year has elapsed, you get nothing, but after that you earn your shares as a percentage, monthly or quarterly. This keeps founders and employees committed since walking away early means leaving money on the table. It&rsquo;s mutual insurance since investors know you won&rsquo;t bail with your equity, and co-founders can&rsquo;t screw each other over by leaving with huge chunks of the company after six months. VCs don&rsquo;t have vesting on their shares - they get their equity immediately upon investment.</p>
+<p>The governance stuff is equally important. Your board of directors typically has odd numbers to prevent voting deadlocks, and VCs get <em>protective provisions</em> that let them block major company decisions like selling the company or issuing new stock. <em>Pro rata rights</em> mean existing investors can maintain their ownership percentage in future rounds, while <em>drag-along provisions</em> are the nuclear option - if majority shareholders want to sell to an acquirer, they can force minority shareholders to sell too. This prevents situations where 95% of shareholders want to take a good exit but a few holdouts kill the deal for everyone.</p>
+<p><em>Registration rights</em> give investors a path to sell their shares if the company goes public, and stock restrictions prevent people from jumping ship too early by requiring board approval for any share sales. The <em>no-shop</em> provision means once you sign, you can&rsquo;t shop the deal around to other investors.</p>
+<p>Your <em>cap table</em> (capitalisation table) is essentially a spreadsheet that tracks who owns what percentage of your company over time - shareholders, number of shares, ownership percentages. It’s how you evaluate different funding deals because you can model how much dilution each round causes and what everyone&rsquo;s ownership looks like after each investment. The cap table helps you answer the crucial question: is the extra money worth the extra dilution, especially when you factor in both the economic terms and governance implications of each deal.</p>
+<h2 id="the-founder--startup-perspective">The founder / startup perspective</h2>
+<p>Now that we&rsquo;ve covered how VCs think and operate, let&rsquo;s switch sides. If you&rsquo;re starting a company, there’s a lot of critical stuff to figure out (some of which is covered in the previous jargon section): what type of company you should be (probably a C-corp in the US or a private limited (ltd) in the UK), how to split equity between founders, setting up founder stock vesting so nobody bails with high equity on day one, transfer restrictions (preventing shareholders from selling their stock without board approval so a rogue founder doesn’t privately dump shares while you’re looking to raise money), IP protection (so no one can nab your idea, particularly important for deeptech companies with capital-intensive R&amp;D), and employee option pools (a portion of equity given to some employees as a greater incentive alongside their main salary).</p>
+<p>Understanding where your potential VC sits in their fund cycle matters enormously. Funds typically last 10 years but stop making new investments around year 5 or 6. Earlier-cycle VCs have less pressure and more <em>dry powder</em> (i.e., committed capital by LPs that hasn’t been allocated by GPs yet) to deploy. They also reserve capital for follow-on rounds, so a fund near its end may not have the reserves to support you through future raises. This timing can make or break your fundraising prospects depending on when you show up. Since fund performance data isn&rsquo;t public, you&rsquo;ll need to do your reference checks in the community. LinkedIn, X, and ideally in person.</p>
+<p>A crucial part of the startup journey is pitching to investors or potential hires. In terms of pitch content, include all the stuff mentioned before that VCs look for: market size and potential money (not just total addressable market, or even <em>serviceable</em> available market, but <em>serviceable obtainable</em> market), the co-founders/team and why they&rsquo;re right for this problem, the product, and then some practical stuff too: the go-to-market strategy, and some indication you’ve thought about the next round of fundraising. No point pitching unless you know what you want, how much, and why.</p>
+<p>That’s the baseline. Then you need all the people skills that take the content of the pitch to the next level. Being a good storyteller. Some level of likeability and intelligence that makes people want to speak to you. And a healthy dose of luck so that the right person catches you when you’re on form. All of that is to credibly convince yourself and the VCs that the market opportunity for your business is large enough to generate a several-100M-dollar-revenue business over a 7-10y period. That’s what you’d need for an IPO.</p>
+<p>Obviously, many businesses aren’t that. In fact, most aren’t. And that’s fine. If that’s the case, VCs looking for lower returns exist. And if you aren’t in VC territory, there are angels (usually $10K-100K cheques) and smaller seed investors ($50-500K). If you’re smaller or earlier stage, there’s a lot of non-dilutive grants out there too where you get money without losing equity, though these might be geared more towards research.</p>
+<p>The amount you need to raise is as much as required to safely achieve the key milestones required for the next fundraising round. If you or a VC overvalue your company in this round, you&rsquo;ll need to show much bigger progress to justify an even higher valuation next time. You might be able to get away with overvaluation at one round but, at some point in time, your valuation needs to reflect the actual progress of the business. The wheels can come off if you can’t raise money or if you raise at a valuation below last round’s valuation, known as a “down round”.</p>
+<p>Then, when it comes to making the deal: think hard about the equity you want for you and your team (and how that could evolve with subsequent funding rounds), pick a good board that you trust, understand what you&rsquo;re giving up in terms of both economics and control, keep it simple where possible (1-2 page term sheets are sufficient), and remember that this is a long journey.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>There you have it - the core bits of venture capital. I&rsquo;ve skipped a fair bit: the history of how the industry developed, the metrics VCs care about, and alternative models like venture studios that aim to deploy capital <em>and</em> help with building companies. Much of this is also fairly tech-centric, there are some distinct differences in up-front capital requirements and IPO times from industry to industry, as well as highly variable regulation and patent/property rights. The fundamentals are there, though.</p>
+<p>It&rsquo;s, quite frankly, an absurd industry that sounds immensely fun. Maybe if the pharma bug hadn&rsquo;t got me, I&rsquo;d be tempted to join a venture firm. Alas, I must make drugs.</p>
+<p>But you, dear reader, could join one. My aim in writing this was to convince people who are slightly anti-finance that it&rsquo;s not that bad and it&rsquo;s not the best thing in the world either - it&rsquo;s more like an amoral tool. I want more people to play this game ethically and create things that serve humanity rather than dystopian companies like <a href="https://www.youtube.com/watch?v=O_Q1hoEhfk4">Friend</a>.</p>
+<p>As I said in the intro, everyone&rsquo;s watching <a href="https://www.youtube.com/@20VC">20VC</a>, or <a href="https://www.youtube.com/@allin">All In</a>, or <a href="https://www.youtube.com/@ThisWontLastpodcast">This Won&rsquo;t Last</a>, or <a href="https://www.youtube.com/@theloganbartlettshow">The Logan Bartlett Show</a>, etc etc etc. We aren&rsquo;t going back to the small club. The only option seems to be expanding the club so ridiculously that everyone gets a shot and only the best survive, with the caveat that the slop will be at an all-time high. That seems to be the way of liberal democracy/enshittification/reality.</p>
+<p><strong>The key insight is simple: it&rsquo;s all about finding the profitable intersection of good ideas that sound like bad ideas.</strong></p>
+<p>At its core, venture capital remains what it&rsquo;s always been: rich people betting on smart people to build the future. Companies will rise and fall, new markets will emerge, old models will adapt. But if we&rsquo;re going to have this system anyway - and we probably are - better to flood it with people who use it for good.</p>
+</section>
+    <section>
+      <footer class="page-footer">
+		<hr>
+
+    <div class="previous-post" style="display:inline-block;">
+      
+      <a class="link-reverse" href="http://avishvj.github.io/posts/scm/?ref=footer">« Community where states and markets fail</a>
+      
+    </div>
+
+    <div class="next-post", style="display:inline-block;float:right;">
+      
+    </div>
+
+		<ul class="page-footer-menu">
+
+      
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      
+      
+        <li><a href="https://github.com/avishvj"> GitHub</a></li>
+      
+        <li><a href="https://x.com/avishvj"> X</a></li>
+      
+        <li><a href="https://uk.linkedin.com/in/avish-vijayaraghavan"> LinkedIn</a></li>
+      
+        <li><a href="https://open.spotify.com/artist/77JwWnM4Tq5EOanhEguNuw"> My Music</a></li>
+      
+		</ul>
+
+  
+    <p>
+      Powered by <a href="https://gohugo.io">Hugo</a> and the
+      <a href="https://github.com/slashformotion/hugo-tufte">Tufte theme</a>.
+    </p>
+  
+
+	<div class="copyright">
+	<p>
+    
+      &copy; 2025
+    Avish Vijayaraghavan.
+    All rights reserved.
+    
+  </p>
+</div>
+</footer>
+
+    </section>
+  </article>
+</div>
+
+    </body>
+
+</html>
