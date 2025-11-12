@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Avish Vijayaraghavan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://avishvj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://avishvj.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How we wrote a big review paper on multimodal AI</title>
+      <link>http://avishvj.github.io/posts/multimodal_review/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://avishvj.github.io/posts/multimodal_review/</guid>
+      <description>A research retrospective on a two-year-long 50-person collaboration</description>
+    </item>
+    
     <item>
       <title>VC in 30 minutes</title>
       <link>http://avishvj.github.io/posts/vc/</link>

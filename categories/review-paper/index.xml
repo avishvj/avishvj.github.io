@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>review paper on Avish Vijayaraghavan</title>
+    <link>http://avishvj.github.io/categories/review-paper/</link>
+    <description>Recent content in review paper on Avish Vijayaraghavan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://avishvj.github.io/categories/review-paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How we wrote a big review paper on multimodal AI</title>
+      <link>http://avishvj.github.io/posts/multimodal_review/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://avishvj.github.io/posts/multimodal_review/</guid>
+      <description>A research retrospective on a two-year-long 50-person collaboration</description>
+    </item>
+    
+  </channel>
+</rss>
