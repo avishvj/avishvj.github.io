@@ -1,0 +1,4 @@
+/* Or more specifically target just the date/summary line */
+.content-title + p {
+  font-size: 1.25rem !important;
+}
